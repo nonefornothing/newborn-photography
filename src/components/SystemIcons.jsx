@@ -9,6 +9,7 @@ import {
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
 import {
+  faWhatsapp,
   faTwitter,
   faFacebookF,
   faLinkedinIn,
@@ -16,6 +17,7 @@ import {
   faMediumM,
 } from "@fortawesome/free-brands-svg-icons";
 
+export const WhatsappIcon = makeFAIcon(faWhatsapp);
 export const PhoneIcon = makeFAIcon(faPhone);
 export const EnvelopIcon = makeFAIcon(faEnvelope);
 export const PlusIcon = makeFAIcon(faPlus);

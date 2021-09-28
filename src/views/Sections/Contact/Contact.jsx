@@ -23,7 +23,7 @@ const Contact = ({ className, frontmatter }) => {
       </Row>
       <Row>
         <Col lg={4} className="ml-auto text-center">
-          <Icon iconName="PhoneIcon" size="3x" className="text-muted mb-3" />
+          <Icon iconName="WhatsappIcon" size="3x" className="text-muted mb-3" />
           <a className="d-block" href={`tel:${telephone}`}>
             {telephone}
           </a>

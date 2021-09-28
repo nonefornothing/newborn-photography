@@ -5,8 +5,8 @@ social: {
   facebook: "#",
   medium: "#"
 }
-privacyText: "プライバシー"
+privacyText: "Privacy Policy"
 privacyHref: "#!"
-termsText: "利用規約"
+termsText: "Privacy Policy"
 termsHref: "#!"
 ---
