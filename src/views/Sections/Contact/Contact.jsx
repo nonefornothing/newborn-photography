@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 import { Row, Col } from "react-bootstrap";
 import Icon from "components/Icon";
 import PageSection from "components/PageSection";
+import "./Contact.scss";
+
 
 const Contact = ({ className, frontmatter }) => {
   if (!frontmatter) {
@@ -22,10 +24,13 @@ const Contact = ({ className, frontmatter }) => {
         </Col>
       </Row>
       <Row>
+
         <Col lg={4} className="ml-auto text-center">
-          <Icon iconName="WhatsappIcon" size="3x" className="text-muted mb-3" />
-          <a className="d-block" href={`tel:${telephone}`}>
-            {telephone}
+          <a href="https://wa.me/message/BHYRKLJCSOG5D1" target="_blank" rel="noreferrer">
+            <Icon iconName="WhatsappIcon" size="3x" className="text-muted mb-3 green-icon" style={{color: 'red'}}/>
+              <a className="d-block" >
+                {telephone}
+              </a>
           </a>
         </Col>
         <Col lg={4} className="mr-auto text-center">

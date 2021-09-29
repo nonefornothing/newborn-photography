@@ -14,21 +14,22 @@ const Top = ({ frontmatter }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const scrollToSection = useSmoothScrollTo(jumpToAnchor);
 
-  let extraInfoPart;
-  if (jumpToAnchor && jumpToAnchorText) {
-    extraInfoPart = (
-      <Button size="xl" variant="primary" className="text-uppercase" onClick={scrollToSection}>
-        {jumpToAnchorText}
-      </Button>
-    );
-  }
+  let runningText;
+  // if (jumpToAnchor && jumpToAnchorText) {
+  //   extraInfoPart = (
+  //     <Button size="xl" variant="primary" className="text-uppercase" onClick={scrollToSection}>
+  //       {jumpToAnchorText}
+  //               HALLLOO SAYA DISINI
+  //     </Button>
+  //   );
+  // }
 
   return (
     <ImageCard
       imageFileName={imageFileName}
       header={header}
       subheader={subheader}
-      extraInfo={extraInfoPart}
+      // extraInfo={extraInfoPart}
     />
   );
 };
