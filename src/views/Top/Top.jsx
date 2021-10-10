@@ -2,14 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import ImageCard from "components/ImageCard";
-import RunningText from "components/RunningText";
 
 const Top = ({ frontmatter }) => {
   if (!frontmatter) {
     return null;
   }
 
-  const { header, subheader, imageFileName,inputText} = frontmatter;
+  const { header, subheader, imageFileName,slogan} = frontmatter;
 
   return (
     <div>
@@ -17,10 +16,7 @@ const Top = ({ frontmatter }) => {
       imageFileName={imageFileName}
       header={header}
       subheader={subheader}
-      // extraInfo={extraInfoPart}
-    />
-    <RunningText 
-      inputText={inputText}
+      slogan={slogan}
     />
     </div>
   );

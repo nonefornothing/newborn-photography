@@ -1,4 +1,292 @@
-// Styling for the Contact section
-.green-icon {
-  background-color: green;
+/* contact section styling */
+.contact .title {
+  color: black;
+}
+
+.contact .container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact .form {
+  width: 100%;
+  max-width: 920px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contact .contact-form {
+  background-color: #1abc9c;
+  position: relative;
+}
+
+.contact .contact-form:before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: #1abc9c;
+  transform: rotate(45deg);
+  top: 50px;
+  left: -13px;
+}
+.contact form {
+  padding: 2.3rem 2.2rem;
+  z-index: 10;
+  overflow: hidden;
+  position: relative;
+}
+
+.contact .input-container {
+  position: relative;
+  margin: 1rem 0;
+  user-select: none;
+}
+.contact .input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #fafafa;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.contact textarea.input {
+  padding: 0.8rem 1.2rem;
+  min-height: 150px;
+  border-radius: 22px;
+  resize: none;
+  overflow-y: auto;
+}
+.contact .input-container label {
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  padding: 0 0.4rem;
+  color: #fafafa;
+  font-size: 0.9rem;
+  font-weight: 400;
+  pointer-events: none;
+  z-index: 1000;
+  transition: 0.5s;
+}
+.contact .input-container.textarea label {
+  top: 1rem;
+  transform: translateY(0);
+  user-select: none;
+}
+.contact .button {
+  display: flex;
+  justify-content: center;
+}
+.contact .btn {
+  padding: 0.6rem 1.3rem;
+  background-color: #fff;
+  border: 2px solid #fafafa;
+  font-size: 0.95rem;
+  color: #1abc9c;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+}
+.contact .btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.contact .input-container span {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  padding: 0 0.4rem;
+  color: transparent;
+  pointer-events: none;
+  z-index: 500;
+}
+.contact .input-container span:before,
+.contact .input-container span:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  opacity: 0;
+  transition: 0.3s;
+  height: 5px;
+  background-color: #1abc9c;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.contact .input-container span:before {
+  left: 50%;
+}
+.contact .input-container span:after {
+  right: 50%;
+}
+.contact .input-container.focus label {
+  top: 0;
+  transform: translateY(-50%);
+  left: 25px;
+  font-size: 0.8rem;
+}
+.contact .input-container.focus span:before,
+.contact .input-container.focus span:after {
+  width: 50%;
+  opacity: 1;
+}
+.contact .contact-info {
+  padding: 2.5rem 2.2rem;
+  position: relative;
+}
+.contact .contact-info .contact-title {
+  color: var(--identity-primary);
+  position: relative;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.contact .info .information {
+  display: flex;
+  color: #555;
+  margin: 0.7rem 0;
+  align-items: center;
+  font-size: 0.95rem;
+}
+.contact .info .icon {
+  width: 28px;
+  margin-right: 0.7rem;
+  user-select: none;
+}
+.contact .contact-info .social-media {
+  padding: 2rem 0 0 0;
+}
+.contact .contact-info .social-media p {
+  color: #333;
+}
+.contact .social-media .social-icons {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.contact .social-media .social-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #1abc9c, #149279);
+  text-align: center;
+  line-height: 35px;
+  margin-right: 0.5rem;
+  transition: 0.3s;
+}
+.contact .social-media .social-icons a:hover {
+  transform: scale(1.05);
+}
+.contact .contact-form .alert {
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  margin-bottom: 10px;
+  display: none;
+}
+
+/* submit button styling */
+
+.contact .contact-form .button {
+  user-select: none;
+  width: 100%;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background: transparent;
+  font-family: "raleway", sans-serif;
+}
+.contact .contact-form .button span {
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.contact .contact-form .button:before,
+.contact .contact-form .button:after {
+  content: "";
+  position: absolute;
+  top: 0.67em;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: 0.4s, opacity 0.6s;
+  -moz-transition: 0.4s, opacity 0.6s;
+  -o-transition: 0.4s, opacity 0.6s;
+  transition: 0.4s, opacity 0.6s;
+}
+
+/* :before */
+.contact .contact-form .button:before {
+  content: attr(data-hover);
+  -webkit-transform: translate(-150%, 0);
+  -moz-transform: translate(-150%, 0);
+  -ms-transform: translate(-150%, 0);
+  -o-transform: translate(-150%, 0);
+  transform: translate(-150%, 0);
+}
+/* :after */
+.contact .contact-form .button:after {
+  content: attr(data-active);
+  -webkit-transform: translate(150%, 0);
+  -moz-transform: translate(150%, 0);
+  -ms-transform: translate(150%, 0);
+  -o-transform: translate(150%, 0);
+  transform: translate(150%, 0);
+}
+
+/* Span on :hover and :active */
+.contact .contact-form .button:hover span,
+.contact .contact-form .button:active span {
+  opacity: 0;
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  -o-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+/*  
+    We show :before pseudo-element on :hover 
+    and :after pseudo-element on :active 
+*/
+
+.contact .contact-form .button:hover:before,
+.contact .contact-form .button:active:after {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
 }

@@ -1,17 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./RunningText.css";
+import "./RunningText.scss";
 
-const RunningText = ({ inputText }) => {
-  if (!inputText) {
+const RunningText = ({ slogan }) => {
+  if (!slogan) {
     return null;
   }
 
   return (
-  <svg viewBox="0 0 1760 300">
+  <svg >
 	  <symbol id="s-text">
-		  <text textAnchor="middle" x="50%" y="80%">{inputText}</text>
+		  <text textAnchor="middle" x="50%" y="80%">{slogan}</text>
 	  </symbol>
 
 	  <g className = "g-ants">
@@ -29,11 +29,11 @@ const RunningText = ({ inputText }) => {
 };
 
 RunningText.propTypes = {
-  inputText: PropTypes.string,
+  slogan: PropTypes.string,
 };
 
 RunningText.defaultProps = {
-  inputText: null,
+  slogan: null,
 };
 
 export default RunningText;

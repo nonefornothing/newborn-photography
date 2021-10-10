@@ -5,17 +5,19 @@ import clsx from "clsx";
 import { Container, Card } from "react-bootstrap";
 import Image from "components/Image";
 import "./ImageCard.scss";
+import RunningText from "components/RunningText";
 
-const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extraInfo }) => {
+
+const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, slogan }) => {
   return (
-    <Card className={clsx("image-card bg-dark text-white text-center", className)}>
+    <Card className={clsx("image-card text-white text-center", className)}>
       <Image className="image" fileName={imageFileName} alt={imageAlt || header || subheader} />
       <Card.ImgOverlay className="no-padding">
         <Container>
           <div className="intro-text">
             <div className="intro-lead-in">{subheader}</div>
-            {extraInfo}
           </div>
+          <RunningText slogan={slogan} />
         </Container>
       </Card.ImgOverlay>
     </Card>
@@ -28,7 +30,7 @@ ImageCard.propTypes = {
   imageAlt: PropTypes.string,
   header: PropTypes.string,
   subheader: PropTypes.string,
-  extraInfo: PropTypes.any,
+  slogan: PropTypes.string,
 };
 
 ImageCard.defaultProps = {
@@ -37,7 +39,7 @@ ImageCard.defaultProps = {
   imageAlt: null,
   header: "",
   subheader: "",
-  extraInfo: null,
+  slogan: "",
 };
 
 export default ImageCard;
