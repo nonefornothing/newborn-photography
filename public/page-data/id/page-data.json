@@ -26,8 +26,7 @@
               "anchor": null,
               "clients": null,
               "content": null,
-              "copyright": "Copyright © BOT Inc 2021",
-              "copyrightStatement": "All rights reserved",
+              "copyright": "Copyright © Start Bootstrap 2020",
               "header": null,
               "email": null,
               "imageFileName": null,
@@ -38,6 +37,13 @@
               "privacyHref": "#!",
               "privacyText": "Privacy Policy",
               "services": null,
+              "social": {
+                "facebook": "#",
+                "github": null,
+                "linkedin": null,
+                "medium": "#",
+                "twitter": "#"
+              },
               "subheader": null,
               "teamMember": null,
               "telephone": null,
@@ -53,7 +59,7 @@
           },
           {
             "frontmatter": {
-              "brand": "NewBorn Tangerang",
+              "brand": "MW Moto",
               "anchor": null,
               "clients": null,
               "content": null,
@@ -89,18 +95,19 @@
               "clients": null,
               "content": null,
               "copyright": null,
-              "slogan": "Capture moments",
+              "header": "It's Nice To Meet You",
               "email": null,
               "imageFileName": "header-bg.jpg",
               "jumpToAnchor": "Services",
-              "jumpToAnchorText": "Tell Me More",
+              "jumpToAnchorText": "",
+              "slogan" : "Capture Moments",
               "menuText": null,
               "portfolios": null,
               "privacyHref": null,
               "privacyText": null,
               "services": null,
               "social": null,
-              "subheader": "Welcome To Our Studio!",
+              "subheader": "Selamat Datang di Studio Kami!",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
@@ -131,26 +138,26 @@
               "privacyText": null,
               "services": [
                 {
-                  "content": "Bahasa Indonesia",
-                  "header": "E-Commerce",
-                  "iconName": "ShoppingCartIcon",
+                  "content": "👶 Bayi baru lahir (5-14 hari), Pernikahan, Wisuda, Acara Perusahaan, Pertunangan, Foto Keluarga, Promosi Produk",
+                  "header": "Pemotretan ",
+                  "iconName": "CameraIcon",
                   "imageFileName": null
                 },
                 {
-                  "content": "Bahasa Indonesia",
-                  "header": "Responsive Design",
-                  "iconName": "LaptopIcon",
+                  "content": "Pembuatan video dalam dilakukan di lokasi klien atau studio kami",
+                  "header": "Pembuatan Video Promosi",
+                  "iconName": "VideoIcon",
                   "imageFileName": null
                 },
                 {
-                  "content": "Bahasa Indonesia",
-                  "header": "Web Security",
-                  "iconName": "LockIcon",
+                  "content": "Kartu Bisnis, Pamflet, Brosur, Design",
+                  "header": "Desain",
+                  "iconName": "PaintBrushIcon",
                   "imageFileName": null
                 }
               ],
               "social": null,
-              "subheader": "Kenangan adalah Harta Karun bagi kita",
+              "subheader": "Pelayanan yang Hebat untuk pelanggan yang hebat",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
@@ -166,11 +173,11 @@
           {
             "frontmatter": {
               "brand": null,
-              "anchor": "Portfolio",
+              "anchor": "portofolio",
               "clients": null,
               "content": null,
               "copyright": null,
-              "header": "Portfolio",
+              "header": "portofolio",
               "email": null,
               "imageFileName": null,
               "jumpToAnchor": null,
@@ -270,11 +277,11 @@
           {
             "frontmatter": {
               "brand": null,
-              "anchor": "Tentang Saya",
+              "anchor": "Tentang KAMI",
               "clients": null,
               "content": null,
               "copyright": null,
-              "header": "Tentang Saya",
+              "header": "Tentang KAMI",
               "email": null,
               "imageFileName": null,
               "jumpToAnchor": null,
@@ -337,11 +344,11 @@
           {
             "frontmatter": {
               "brand": null,
-              "anchor": "Kelompok",
+              "anchor": "TIM",
               "clients": null,
               "content": "Katanya",
               "copyright": null,
-              "header": "Anggota Team kami",
+              "header": "Anggota Tim",
               "email": null,
               "imageFileName": null,
               "jumpToAnchor": null,
@@ -359,33 +366,36 @@
                   "imageFileName": "team/1.jpg",
                   "social": {
                     "facebook": "#",
-                    "twitter": "#",
-                    "instagram": "#"
+                    "github": null,
+                    "linkedin": "#",
+                    "medium": null,
+                    "twitter": "#"
                   },
-                  "subheader": "Lead Designer",
-                  "subheaderCertificate": "Certified Newborn Photographer"
+                  "subheader": "Lead Designer"
                 },
                 {
                   "header": "Larry Parker",
                   "imageFileName": "team/2.jpg",
                   "social": {
                     "facebook": "#",
-                    "twitter": "#",
-                    "instagram": "#"
+                    "github": null,
+                    "linkedin": null,
+                    "medium": "#",
+                    "twitter": "#"
                   },
-                  "subheader": "Lead Marketer",
-                  "subheaderCertificate": "Certified Newborn Photographer"
+                  "subheader": "Lead Marketer"
                 },
                 {
                   "header": "Diana Pertersen",
                   "imageFileName": "team/3.jpg",
                   "social": {
                     "facebook": "#",
-                    "twitter": "#",
-                    "instagram": "#"
+                    "github": null,
+                    "linkedin": null,
+                    "medium": "#",
+                    "twitter": "#"
                   },
-                  "subheader": "Lead Developer",
-                  "subheaderCertificate": "Certified Newborn Photographer"
+                  "subheader": "Lead Developer"
                 }
               ],
               "telephone": null,
@@ -450,12 +460,12 @@
           {
             "frontmatter": {
               "brand": null,
-              "anchor": "Kontak Saya",
+              "anchor": "Kontak",
               "clients": null,
               "content": null,
               "copyright": null,
               "header": "Hubungi Kami ",
-              "email": "NewBorn-Tangerang@gmail.com",
+              "email": "contact@yourwebsite.com",
               "imageFileName": null,
               "jumpToAnchor": null,
               "jumpToAnchorText": null,
@@ -464,19 +474,10 @@
               "privacyHref": null,
               "privacyText": null,
               "services": null,
-              "social": {
-                "facebook": "#",
-                "twitter": "#",
-                "instagram": "#"
-              },
-              "contact": {
-                "email": "#",
-                "location": "#",
-                "whatsapp": "#"
-              },
+              "social": null,
               "subheader": "Saya sungkan untuk menelpon, Kami siap menjawab kepercayaan anda",
               "teamMember": null,
-              "telephone": "+62-813-1452-9004",
+              "telephone": "03-0000-0001",
               "termsHref": null,
               "termsText": null,
               "title": "",

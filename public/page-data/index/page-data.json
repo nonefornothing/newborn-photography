@@ -38,15 +38,14 @@
               "privacyText": "Privacy Policy",
               "services": null,
               "social": {
-                "facebook": "#ddd",
-                "github": null,
-                "linkedin": null,
+                "facebook": "#",
                 "medium": "#",
                 "twitter": "#"
               },
               "subheader": null,
               "teamMember": null,
               "telephone": null,
+              "slogan": "Capture Moments",
               "termsHref": "#!",
               "termsText": "Terms of Use",
               "title": "",
@@ -59,7 +58,7 @@
           },
           {
             "frontmatter": {
-              "brand": "Start Bootstrap",
+              "brand": "MW Moto",
               "anchor": null,
               "clients": null,
               "content": null,
@@ -100,6 +99,7 @@
               "imageFileName": "header-bg.jpg",
               "jumpToAnchor": "Services",
               "jumpToAnchorText": "Tell Me More",
+              "slogan": "Capture Moments",
               "menuText": null,
               "portfolios": null,
               "privacyHref": null,
@@ -141,20 +141,20 @@
               "privacyText": null,
               "services": [
                 {
-                  "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-                  "header": "E-Commerce",
+                  "content": "👶 Newborn baby (5-14 days) photoshoot, Weddings, Graduation, Corporate Events, Engagement, Family Photoshoots, Product Shoots/ Profiles",
+                  "header": "Event Photography",
                   "iconName": "CameraIcon",
                   "imageFileName": null
                 },
                 {
-                  "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-                  "header": "Responsive Design",
+                  "content": "On Location Promo & In Studio Promo",
+                  "header": "Video Promo",
                   "iconName": "VideoIcon",
                   "imageFileName": null
                 },
                 {
-                  "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-                  "header": "Web Security",
+                  "content": "Business Cards,Logo design, Flyers, Brochure, Poster Design",
+                  "header": "Graphics",
                   "iconName": "PaintBrushIcon",
                   "imageFileName": null
                 }
@@ -164,7 +164,7 @@
                 "twitter": "#",
                 "instagram": "#"
               },
-              "subheader": "Lorem ipsum dolor sit amet consectetur.",
+              "subheader": "Extraordinary service for extraordinary customers",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
