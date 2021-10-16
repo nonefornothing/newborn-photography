@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable import/extensions */
 /* eslint-disable no-undef */
 /* eslint-disable react/jsx-no-undef */
@@ -12,6 +13,8 @@ import { Row } from "react-bootstrap";
 // import Icon from "components/Icon";
 import PageSection from "components/PageSection";
 import SectionHeader from "components/SectionHeader";
+import * as SocialIcons from "components/SocialIcons";
+// import * as ContactIcons from "components/ContactIcons";
 
 import "./Contact.scss";
 
@@ -21,9 +24,12 @@ const Contact = ({ className, frontmatter }) => {
     return null;
   }
 
-  // const { anchor, header: rootHeader, subheader: rootSubHeader, telephone, email } = frontmatter;
-
-  const { anchor, header: rootHeader, subheader: rootSubHeader } = frontmatter;
+  const { 
+    anchor, 
+    header: rootHeader, 
+    subheader: rootSubHeader,
+    // social: { facebook, twitter, instagram },
+  } = frontmatter;
 
   return (
     <PageSection className={className} id={anchor}>
@@ -44,24 +50,26 @@ const Contact = ({ className, frontmatter }) => {
 
                         <div className="info">
                             <div className="information">
-                                <img src="./asses/location.png" className="icon" alt="location-icon" />
-                                <p>Setia Budi, South Jakarta 12940</p>
+                              {/* {location ? <SocialIcons.Location userName={location} /> : null} */}
+                              <p>Setia Budi, South Jakarta 12940</p>
                             </div>
                             <div className="information">
-                                <img src="/asses/email.png" className="icon" alt="email-icon" />
-                                <p>ambaritajohan10@gmail.com</p>
+                              {/* {email ? <SocialIcons.Email userName={email} /> : null} */}
+                              <p>ambaritajohan10@gmail.com</p>
                             </div>
                             <div className="information">
-                                <img src="./asses/phone.png" className="icon" alt="phone-icon" />
-                                <p>62895601358111</p>
+                              {/* {whatsapp ? <SocialIcons.Whatsapp userName={whatsapp} /> : null} */}
+                              <p>62895601358111</p>
                             </div>
                         </div>
 
                         <div className="social-media">
                             <p>Our social media :</p>
-                            {/* <div className="social-icons">
-
-                            </div> */}
+                            <div className="social-icons">
+                              {/* {twitter ? <SocialIcons.Twitter userName={twitter} /> : null}
+                              {facebook ? <SocialIcons.Facebook userName={facebook} /> : null}
+                              {instagram ? <SocialIcons.Instagram userName={instagram} /> : null} */}
+                            </div>
                         </div>
                     </div>
 
@@ -101,32 +109,6 @@ const Contact = ({ className, frontmatter }) => {
             </div>
         </div>
       </section>
-      {
-      /* <Row className="justify-content-center">
-        <Col lg={8} className="text-center">
-          <h2 className="mt-0">{header}</h2>
-          <hr className="divider my-4" />
-          <p className="text-muted mb-5">{subheader}</p>
-        </Col>
-      </Row>
-      <Row>
-
-        <Col lg={4} className="ml-auto text-center">
-          <a href="https://wa.me/message/BHYRKLJCSOG5D1" target="_blank" rel="noreferrer">
-            <Icon iconName="WhatsappIcon" size="3x" className="text-muted mb-3 green-icon" style={{color: 'red'}}/>
-              <a className="d-block" >
-                {telephone}
-              </a>
-          </a>
-        </Col>
-        <Col lg={4} className="mr-auto text-center">
-          <Icon iconName="EnvelopIcon" size="3x" className="text-muted mb-3" />
-          <a className="d-block" href={`mailto:${email}`}>
-            {email}
-          </a>
-        </Col>
-      </Row> */ 
-    }
     </PageSection>
   );
 };

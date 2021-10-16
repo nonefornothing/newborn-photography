@@ -2,8 +2,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Container, Row, Col } from "react-bootstrap";
-import * as SocialIcons from "components/SocialIcons";
+import { Container } from "react-bootstrap";
 
 const Footer = ({ frontmatter }) => {
   if (!frontmatter) {
@@ -12,28 +11,17 @@ const Footer = ({ frontmatter }) => {
 
   const {
     copyright,
-    copyrightStatement,
-    social: { facebook, twitter, instagram },
+    copyrightStatement
   } = frontmatter;
 
   return (
-    <footer className="footer py-3">
+    <footer className="footer text-center text-white fixed-bottom bg-dark">
       <Container>
-        <Row className="align-items-center text-center">
-          <Col lg={5} className="text-lg-left">
-            {copyright}
-          </Col>
-          <Col lg={3} className="my-3 my-lg-0">
-            {twitter ? <SocialIcons.Twitter userName={twitter} /> : null}
-            {facebook ? <SocialIcons.Facebook userName={facebook} /> : null}
-            {instagram ? <SocialIcons.Instagram userName={instagram} /> : null}
-          </Col>
-          <Col lg={4} className="text-lg-right">
-            <a href={copyrightStatement}>
-              {copyrightStatement}
-            </a>
-          </Col>
-        </Row>
+      <div className="text-center p-3" >
+        {copyright}
+        <a className="text-red" target="_blank" rel="noopener noreferrer" href="https://johanambarita.tech/">Bot Inc</a>
+        {copyrightStatement}
+      </div>
       </Container>
     </footer>
   );
