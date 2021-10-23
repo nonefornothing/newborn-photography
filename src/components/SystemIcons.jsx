@@ -7,6 +7,7 @@ import {
   faBars,
   faTimes,
   faGlobe,
+  faMapMarkedAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faWhatsapp,
@@ -15,9 +16,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-export const WhatsappIcon = makeFAIcon(faWhatsapp);
 export const PhoneIcon = makeFAIcon(faPhone);
-export const EnvelopIcon = makeFAIcon(faEnvelope);
 export const PlusIcon = makeFAIcon(faPlus);
 export const BarsIcon = makeFAIcon(faBars);
 export const CloseIcon = makeFAIcon(faTimes);
@@ -27,6 +26,8 @@ export const TwitterIcon = makeFAIcon(faTwitter);
 export const FacebookIcon = makeFAIcon(faFacebook);
 export const InstagramIcon = makeFAIcon(faInstagram);
 
-// email,location,whatsapp
+export const WhatsappIcon = makeFAIcon(faWhatsapp);
+export const LocationIcon = makeFAIcon(faMapMarkedAlt);
+export const EmailIcon = makeFAIcon(faEnvelope);
 
 export * from "config/CustomIcons";

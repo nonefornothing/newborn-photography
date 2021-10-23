@@ -5,9 +5,8 @@ import PropTypes from "prop-types";
 import CircleIcon from "components/CircleIcon";
 
 const Email = ({ userName }) => (
-  <CircleIcon  href={`https://facebook.com/${userName}`}  iconName="EmailIcon" />
+  <CircleIcon href={`mailto:${userName}@gmail.com`}  iconName="EmailIcon" />
 );
-// href="mailto:{username}@example.com"
 Email.propTypes = {
   userName: PropTypes.string.isRequired,
 };

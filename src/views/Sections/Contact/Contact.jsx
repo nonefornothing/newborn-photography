@@ -1,3 +1,7 @@
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable no-undef */
+/* eslint-disable react/no-this-in-sfc */
+/* eslint-disable import/no-unresolved */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from "react";
 import PropTypes from "prop-types";
@@ -11,6 +15,9 @@ import SectionHeader from "components/SectionHeader";
 import * as SocialIcons from "components/SocialIcons";
 
 import "./Contact.scss";
+
+import {Helmet} from "react-helmet";
+
 
 
 const Contact = ({ 
@@ -43,16 +50,14 @@ const Contact = ({
                         <p className="text">{description}</p>
                         <div className="info">
                             <div className="information">
-                              {location ? <SocialIcons.Twitter userName={location} /> : null}
-                              <p>Setia Budi, South Jakarta 12940</p>
+                              <p>{location ? <SocialIcons.Location userName={location} /> : null}<span>Alam Sutera, Tangerang Selatan</span></p>
                             </div>
                             <div className="information">
-                              {email ? <SocialIcons.Twitter userName={email} /> : null}
-                              <p>ambaritajohan10@gmail.com</p>
+                              
+                              <p>{email ? <SocialIcons.Email userName={email} /> : null}<span>mwmotophotography@gmail.com</span></p>
                             </div>
                             <div className="information">
-                              {whatsapp ? <SocialIcons.Twitter userName={whatsapp} /> : null}
-                              <p>62895601358111</p>
+                              <p>{whatsapp ? <SocialIcons.Whatsapp userName={whatsapp} /> : null}<span>+62 813-1452-9004</span></p>
                             </div>
                         </div>
 
@@ -91,7 +96,7 @@ const Contact = ({
 
                             <div className="button">
                                 <button className="button btn" type="submit" data-hover="Let's Work Together"
-                                    value="Send"><span>Submit</span></button>
+                                    value="Send" ><span>Submit</span></button>
                             </div>
 
                             <div className="alert">Your message has been sent</div>
@@ -101,7 +106,10 @@ const Contact = ({
                 </div>
             </div>
         </div>
+
       </section>
+
+
     </PageSection>
   );
 };
