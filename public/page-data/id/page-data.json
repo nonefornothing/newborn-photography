@@ -99,21 +99,21 @@
               "email": null,
               "imageFileName": "header-bg.jpg",
               "jumpToAnchor": "Services",
-              "jumpToAnchorText": "",
-              "slogan" : "Capture Moments",
+              "jumpToAnchorText": "Tell Me More",
               "menuText": null,
               "portfolios": null,
               "privacyHref": null,
               "privacyText": null,
               "services": null,
               "social": null,
-              "subheader": "Selamat Datang di Studio Kami!",
+              "subheader": "Welcome To Our Studio!",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
               "termsText": null,
               "title": "",
-              "timeline": null
+              "timeline": null,
+              "slogan": "CAPTURE MOMENT"
             },
             "fields": {
               "fileName": "Top.id",
@@ -138,26 +138,26 @@
               "privacyText": null,
               "services": [
                 {
-                  "content": "👶 Bayi baru lahir (5-14 hari), Pernikahan, Wisuda, Acara Perusahaan, Pertunangan, Foto Keluarga, Promosi Produk",
-                  "header": "Pemotretan ",
+                  "content": "Pernikahan, Wisuda, Acara Perusahaan, Pertunangan, Pemotretan Keluarga, Pemotretan Produk/ Profil dan Pemotretan Bayi Baru Lahir 👶 (5-14 hari)",
+                  "header": "Pemotretan",
                   "iconName": "CameraIcon",
                   "imageFileName": null
                 },
                 {
-                  "content": "Pembuatan video dalam dilakukan di lokasi klien atau studio kami",
-                  "header": "Pembuatan Video Promosi",
+                  "content": "Pemotretan dalam studio atau di luar studio",
+                  "header": "Video Promosi",
                   "iconName": "VideoIcon",
                   "imageFileName": null
                 },
                 {
-                  "content": "Kartu Bisnis, Pamflet, Brosur, Design",
-                  "header": "Desain",
+                  "content": "Kartu Nama, Desain Logo, Pamflet, Brosur, Desain Poster",
+                  "header": "Desain Grafik",
                   "iconName": "PaintBrushIcon",
                   "imageFileName": null
                 }
               ],
               "social": null,
-              "subheader": "Pelayanan yang Hebat untuk pelanggan yang hebat",
+              "subheader": "Layanan luar biasa untuk pelanggan luar biasa",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
@@ -173,11 +173,11 @@
           {
             "frontmatter": {
               "brand": null,
-              "anchor": "portofolio",
+              "anchor": "Portofolio",
               "clients": null,
               "content": null,
               "copyright": null,
-              "header": "portofolio",
+              "header": "Portofolio",
               "email": null,
               "imageFileName": null,
               "jumpToAnchor": null,
@@ -185,83 +185,83 @@
               "menuText": null,
               "portfolios": [
                 {
-                  "content": "Bahasa Indonesia",
+                  "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
                   "extraInfo": [
                     "Date: January 2017",
                     "Client: Threads",
                     "Category: Illustration"
                   ],
-                  "header": "Threads",
-                  "subheader": "Illustration",
-                  "imageFileNameDetail": "portfolio/01-full.jpg",
-                  "imageFileName": "portfolio/01-thumbnail.jpg"
+                  "header": "Acara Pemotretan",
+                  "subheader": "Pemotretan Bayi baru lahir",
+                  "imageFileNameDetail": "portfolio/batak-full.jpg",
+                  "imageFileName": "portfolio/batak-thumbnail.jpg"
                 },
                 {
-                  "content": "Bahasa Indonesia",
+                  "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
                   "extraInfo": [
-                    "Date： January 2017",
+                    "Date: January 2017",
                     "Client: Explorer",
                     "Category: Graphic Design"
                   ],
-                  "header": "Explorer",
-                  "subheader": "Graphic Design",
-                  "imageFileNameDetail": "portfolio/02-full.jpg",
-                  "imageFileName": "portfolio/02-thumbnail.jpg"
+                  "header": "Acara Pemotretan",
+                  "subheader": "Pemotretan Bayi baru lahir",
+                  "imageFileNameDetail": "portfolio/jawa-full.jpg",
+                  "imageFileName": "portfolio/jawa-thumbnail.jpg"
                 },
                 {
-                  "content": "Bahasa Indonesia",
+                  "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
                   "extraInfo": [
-                    "Date： January 2017",
+                    "Date: January 2017",
                     "Client: Finish",
                     "Category: Identity"
                   ],
-                  "header": "Finish",
-                  "subheader": "Identity",
-                  "imageFileNameDetail": "portfolio/03-full.jpg",
-                  "imageFileName": "portfolio/03-thumbnail.jpg"
+                  "header": "Acara Pemotretan",
+                  "subheader": "Pemotretan Bayi baru lahir",
+                  "imageFileNameDetail": "portfolio/cute-full.jpg",
+                  "imageFileName": "portfolio/cute-thumbnail.jpg"
                 },
                 {
-                  "content": "Bahasa Indonesia",
+                  "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
                   "extraInfo": [
-                    "Date： January 2017",
+                    "Date: January 2017",
                     "Client: Lines",
                     "Category: Branding"
                   ],
-                  "header": "Lines",
-                  "subheader": "Branding",
-                  "imageFileNameDetail": "portfolio/04-full.jpg",
-                  "imageFileName": "portfolio/04-thumbnail.jpg"
+                  "header": "Acara Pemotretan",
+                  "subheader": "Pemotretan Bayi baru lahir",
+                  "imageFileNameDetail": "portfolio/biker-full.jpg",
+                  "imageFileName": "portfolio/biker-thumbnail.jpg"
                 },
                 {
-                  "content": "Bahasa Indonesia",
+                  "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
                   "extraInfo": [
-                    "Date： January 2017",
+                    "Date: January 2017",
                     "Client: Southwest",
                     "Category: Website Design"
                   ],
-                  "header": "Southwest",
-                  "subheader": "Website Design",
-                  "imageFileNameDetail": "portfolio/05-full.jpg",
-                  "imageFileName": "portfolio/05-thumbnail.jpg"
+                  "header": "Acara Pemotretan",
+                  "subheader": "Pemotretan Bayi baru lahir",
+                  "imageFileNameDetail": "portfolio/sleep-full.jpg",
+                  "imageFileName": "portfolio/sleep-thumbnail.jpg"
                 },
                 {
-                  "content": "Bahasa Indonesia",
+                  "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
                   "extraInfo": [
-                    "Date： January 2017",
+                    "Date: January 2017",
                     "Client: Window",
                     "Category: Photography"
                   ],
-                  "header": "Window",
-                  "subheader": "Photography",
-                  "imageFileNameDetail": "portfolio/06-full.jpg",
-                  "imageFileName": "portfolio/06-thumbnail.jpg"
+                  "header": "Acara Pemotretan",
+                  "subheader": "Pemotretan Bayi baru lahir",
+                  "imageFileNameDetail": "portfolio/twins-baby-full.jpg",
+                  "imageFileName": "portfolio/twins-baby-thumbnail.jpg"
                 }
               ],
               "privacyHref": null,
               "privacyText": null,
               "services": null,
               "social": null,
-              "subheader": "Bahasa",
+              "subheader": "Pekerjaan kami untuk kebahagiaan pelanggan",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
@@ -277,11 +277,11 @@
           {
             "frontmatter": {
               "brand": null,
-              "anchor": "Tentang KAMI",
+              "anchor": "Tentang",
               "clients": null,
               "content": null,
               "copyright": null,
-              "header": "Tentang KAMI",
+              "header": "Tentang Kami",
               "email": null,
               "imageFileName": null,
               "jumpToAnchor": null,
@@ -292,7 +292,7 @@
               "privacyText": null,
               "services": null,
               "social": null,
-              "subheader": "Bahasa Indonesia",
+              "subheader": "Sebuah Cerita Fotografi",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
@@ -344,11 +344,11 @@
           {
             "frontmatter": {
               "brand": null,
-              "anchor": "TIM",
+              "anchor": "Kelompok",
               "clients": null,
-              "content": "Katanya",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut risus sit amet mauris congue aliquet vitae a risus. Praesent gravida tellus sit amet maximus auctor. Pellentesque ac orci eget enim dignissim aliquam. Praesent rutrum ultricies lacus eget tincidunt.",
               "copyright": null,
-              "header": "Anggota Tim",
+              "header": "Anggota Team",
               "email": null,
               "imageFileName": null,
               "jumpToAnchor": null,
@@ -359,7 +359,7 @@
               "privacyText": null,
               "services": null,
               "social": null,
-              "subheader": "Hobi yang dibayar",
+              "subheader": "Di keluarga ini, semua orang fotogenik",
               "teamMember": [
                 {
                   "header": "Kay Garland",
@@ -371,7 +371,8 @@
                     "medium": null,
                     "twitter": "#"
                   },
-                  "subheader": "Lead Designer"
+                  "subheader": "Lead Designer",
+                  "subheaderCertificate": "Certified Newborn Photographer"
                 },
                 {
                   "header": "Larry Parker",
@@ -383,7 +384,8 @@
                     "medium": "#",
                     "twitter": "#"
                   },
-                  "subheader": "Lead Marketer"
+                  "subheader": "Lead Marketer",
+                  "subheaderCertificate": "Certified Newborn Photographer"
                 },
                 {
                   "header": "Diana Pertersen",
@@ -395,7 +397,8 @@
                     "medium": "#",
                     "twitter": "#"
                   },
-                  "subheader": "Lead Developer"
+                  "subheader": "Lead Developer",
+                  "subheaderCertificate": "Certified Newborn Photographer"
                 }
               ],
               "telephone": null,
@@ -415,25 +418,29 @@
               "anchor": null,
               "clients": [
                 {
-                  "href": "#!",
-                  "imageFileName": "logos/envato.jpg"
+                  "clientImage": "logos/envato.jpg",
+                  "clientStatement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, suscipit nec aliquet eget, pretium in diam. Phasellus sodales purus sit amet elit tristique, ac hendrerit dolor commodo. Aliquam semper, massa at tristique porta, augue tellus aliquam metus, at scelerisque dui massa ac nunc. Suspendisse dictum eros sollicitudin ligula vestibulum, non consectetur elit posuere. Sed sed viverra magna. Donec sit amet egestas sapien. Suspendisse et tortor leo. Suspendisse blandit massa nec fermentum interdum. Sed a pellentesque risus. In sollicitudin felis mi, quis ultricies lorem malesuada quis.",
+                  "clientName": "Naruto"
                 },
                 {
-                  "href": "#!",
-                  "imageFileName": "logos/designmodo.jpg"
+                  "clientImage": "#!",
+                  "clientStatement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, suscipit nec aliquet eget, pretium in diam. Phasellus sodales purus sit amet elit tristique, ac hendrerit dolor commodo. Aliquam semper, massa at tristique porta, augue tellus aliquam metus, at scelerisque dui massa ac nunc. Suspendisse dictum eros sollicitudin ligula vestibulum, non consectetur elit posuere. Sed sed viverra magna. Donec sit amet egestas sapien. Suspendisse et tortor leo. Suspendisse blandit massa nec fermentum interdum. Sed a pellentesque risus. In sollicitudin felis mi, quis ultricies lorem malesuada quis.",
+                  "clientName": "Tanjiro"
                 },
                 {
-                  "href": "#!",
-                  "imageFileName": "logos/themeforest.jpg"
+                  "clientImage": "#!",
+                  "clientStatement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, suscipit nec aliquet eget, pretium in diam. Phasellus sodales purus sit amet elit tristique, ac hendrerit dolor commodo. Aliquam semper, massa at tristique porta, augue tellus aliquam metus, at scelerisque dui massa ac nunc. Suspendisse dictum eros sollicitudin ligula vestibulum, non consectetur elit posuere. Sed sed viverra magna. Donec sit amet egestas sapien. Suspendisse et tortor leo. Suspendisse blandit massa nec fermentum interdum. Sed a pellentesque risus. In sollicitudin felis mi, quis ultricies lorem malesuada quis.",
+                  "clientName": "Tsubasa"
                 },
                 {
-                  "href": "#!",
-                  "imageFileName": "logos/creative-market.jpg"
+                  "clientImage": "#!",
+                  "clientStatement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, suscipit nec aliquet eget, pretium in diam. Phasellus sodales purus sit amet elit tristique, ac hendrerit dolor commodo. Aliquam semper, massa at tristique porta, augue tellus aliquam metus, at scelerisque dui massa ac nunc. Suspendisse dictum eros sollicitudin ligula vestibulum, non consectetur elit posuere. Sed sed viverra magna. Donec sit amet egestas sapien. Suspendisse et tortor leo. Suspendisse blandit massa nec fermentum interdum. Sed a pellentesque risus. In sollicitudin felis mi, quis ultricies lorem malesuada quis.",
+                  "clientName": "Winda Basudara"
                 }
               ],
               "content": null,
               "copyright": null,
-              "header": null,
+              "header": "Testimoni",
               "email": null,
               "imageFileName": null,
               "jumpToAnchor": null,
@@ -444,7 +451,7 @@
               "privacyText": null,
               "services": null,
               "social": null,
-              "subheader": null,
+              "subheader": "Sumber profesional",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,

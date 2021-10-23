@@ -39,13 +39,14 @@
               "services": null,
               "social": {
                 "facebook": "#",
+                "github": null,
+                "linkedin": null,
                 "medium": "#",
                 "twitter": "#"
               },
               "subheader": null,
               "teamMember": null,
               "telephone": null,
-              "slogan": "Capture Moments",
               "termsHref": "#!",
               "termsText": "Terms of Use",
               "title": "",
@@ -99,24 +100,20 @@
               "imageFileName": "header-bg.jpg",
               "jumpToAnchor": "Services",
               "jumpToAnchorText": "Tell Me More",
-              "slogan": "Capture Moments",
               "menuText": null,
               "portfolios": null,
               "privacyHref": null,
               "privacyText": null,
               "services": null,
-              "social": {
-                "facebook": "#",
-                "twitter": "#",
-                "instagram": "#"
-              },
+              "social": null,
               "subheader": "Welcome To Our Studio!",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
               "termsText": null,
               "title": "",
-              "timeline": null
+              "timeline": null,
+              "slogan": "CAPTURE MOMENT"
             },
             "fields": {
               "fileName": "Top.en",
@@ -141,8 +138,8 @@
               "privacyText": null,
               "services": [
                 {
-                  "content": "👶 Newborn baby (5-14 days) photoshoot, Weddings, Graduation, Corporate Events, Engagement, Family Photoshoots, Product Shoots/ Profiles",
-                  "header": "Event Photography",
+                  "content": "Weddings, Graduation, Corporate Events, Engagement, Family Photoshoots, Product Shoots/ Profiles and 👶 Newborn baby (5-14 days) photoshoot ",
+                  "header": "Event Photographer",
                   "iconName": "CameraIcon",
                   "imageFileName": null
                 },
@@ -153,17 +150,13 @@
                   "imageFileName": null
                 },
                 {
-                  "content": "Business Cards,Logo design, Flyers, Brochure, Poster Design",
-                  "header": "Graphics",
+                  "content": "Business Cards, Logo design, Flyers, Brochure, Poster Design",
+                  "header": "Design Graphic",
                   "iconName": "PaintBrushIcon",
                   "imageFileName": null
                 }
               ],
-              "social": {
-                "facebook": "#",
-                "twitter": "#",
-                "instagram": "#"
-              },
+              "social": null,
               "subheader": "Extraordinary service for extraordinary customers",
               "teamMember": null,
               "telephone": null,
@@ -198,10 +191,10 @@
                     "Client: Threads",
                     "Category: Illustration"
                   ],
-                  "header": "Threads",
-                  "subheader": "Illustration",
-                  "imageFileNameDetail": "portfolio/01-full.jpg",
-                  "imageFileName": "portfolio/01-thumbnail.jpg"
+                  "header": "Event Photographer",
+                  "subheader": "NewBorn Photography",
+                  "imageFileNameDetail": "portfolio/batak-full.jpg",
+                  "imageFileName": "portfolio/batak-thumbnail.jpg"
                 },
                 {
                   "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
@@ -210,10 +203,10 @@
                     "Client: Explorer",
                     "Category: Graphic Design"
                   ],
-                  "header": "Explorer",
-                  "subheader": "Graphic Design",
-                  "imageFileNameDetail": "portfolio/02-full.jpg",
-                  "imageFileName": "portfolio/02-thumbnail.jpg"
+                  "header": "Event Photographer",
+                  "subheader": "NewBorn Photography",
+                  "imageFileNameDetail": "portfolio/jawa-full.jpg",
+                  "imageFileName": "portfolio/jawa-thumbnail.jpg"
                 },
                 {
                   "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
@@ -222,10 +215,10 @@
                     "Client: Finish",
                     "Category: Identity"
                   ],
-                  "header": "Finish",
-                  "subheader": "Identity",
-                  "imageFileNameDetail": "portfolio/03-full.jpg",
-                  "imageFileName": "portfolio/03-thumbnail.jpg"
+                  "header": "Event Photographer",
+                  "subheader": "NewBorn Photography",
+                  "imageFileNameDetail": "portfolio/cute-full.jpg",
+                  "imageFileName": "portfolio/cute-thumbnail.jpg"
                 },
                 {
                   "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
@@ -234,10 +227,10 @@
                     "Client: Lines",
                     "Category: Branding"
                   ],
-                  "header": "Lines",
-                  "subheader": "Branding",
-                  "imageFileNameDetail": "portfolio/04-full.jpg",
-                  "imageFileName": "portfolio/04-thumbnail.jpg"
+                  "header": "Event Photographer",
+                  "subheader": "NewBorn Photography",
+                  "imageFileNameDetail": "portfolio/biker-full.jpg",
+                  "imageFileName": "portfolio/biker-thumbnail.jpg"
                 },
                 {
                   "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
@@ -246,10 +239,10 @@
                     "Client: Southwest",
                     "Category: Website Design"
                   ],
-                  "header": "Southwest",
-                  "subheader": "Website Design",
-                  "imageFileNameDetail": "portfolio/05-full.jpg",
-                  "imageFileName": "portfolio/05-thumbnail.jpg"
+                  "header": "Event Photographer",
+                  "subheader": "NewBorn Photography",
+                  "imageFileNameDetail": "portfolio/sleep-full.jpg",
+                  "imageFileName": "portfolio/sleep-thumbnail.jpg"
                 },
                 {
                   "content": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
@@ -258,21 +251,17 @@
                     "Client: Window",
                     "Category: Photography"
                   ],
-                  "header": "Window",
-                  "subheader": "Photography",
-                  "imageFileNameDetail": "portfolio/06-full.jpg",
-                  "imageFileName": "portfolio/06-thumbnail.jpg"
+                  "header": "Event Photographer",
+                  "subheader": "NewBorn Photography",
+                  "imageFileNameDetail": "portfolio/twins-baby-full.jpg",
+                  "imageFileName": "portfolio/twins-baby-thumbnail.jpg"
                 }
               ],
               "privacyHref": null,
               "privacyText": null,
               "services": null,
-              "social": {
-                "facebook": "#",
-                "twitter": "#",
-                "instagram": "#"
-              },
-              "subheader": "Lorem ipsum dolor sit amet consectetur.",
+              "social": null,
+              "subheader": "Our work for customer happiness",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
@@ -288,11 +277,11 @@
           {
             "frontmatter": {
               "brand": null,
-              "anchor": "About",
+              "anchor": "About Us",
               "clients": null,
               "content": null,
               "copyright": null,
-              "header": "About",
+              "header": "About Us",
               "email": null,
               "imageFileName": null,
               "jumpToAnchor": null,
@@ -302,12 +291,8 @@
               "privacyHref": null,
               "privacyText": null,
               "services": null,
-              "social": {
-                "facebook": "#",
-                "twitter": "#",
-                "instagram": "#"
-              },
-              "subheader": "Lorem ipsum dolor sit amet consectetur.",
+              "social": null,
+              "subheader": "A Photographic Story",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
@@ -373,42 +358,41 @@
               "privacyHref": null,
               "privacyText": null,
               "services": null,
-              "social": {
-                "facebook": "#",
-                "twitter": "#",
-                "instagram": "#"
-              },
-              "subheader": "Lorem ipsum dolor sit amet consectetur.",
+              "social": null,
+              "subheader": "In this family, everyone is photogenic",
               "teamMember": [
                 {
                   "header": "Kay Garland",
                   "imageFileName": "team/1.jpg",
                   "social": {
                     "facebook": "#",
-                    "twitter": "#",
-                    "instagram": "#"
+                    "instagram": "#",
+                    "twitter": "#"
                   },
-                  "subheader": "Lead Designer"
+                  "subheader": "Lead Designer",
+                  "subheaderCertificate": "Certified Newborn Photographer"
                 },
                 {
                   "header": "Larry Parker",
                   "imageFileName": "team/2.jpg",
                   "social": {
                     "facebook": "#",
-                    "twitter": "#",
-                    "instagram": "#"
+                    "instagram": "#",
+                    "twitter": "#"
                   },
-                  "subheader": "Lead Marketer"
+                  "subheader": "Lead Marketer",
+                  "subheaderCertificate": "Certified Newborn Photographer"
                 },
                 {
                   "header": "Diana Pertersen",
                   "imageFileName": "team/3.jpg",
                   "social": {
                     "facebook": "#",
-                    "twitter": "#",
-                    "instagram": "#"
+                    "instagram": "#",
+                    "twitter": "#"
                   },
-                  "subheader": "Lead Developer"
+                  "subheader": "Lead Developer",
+                  "subheaderCertificate": "Certified Newborn Photographer"
                 }
               ],
               "telephone": null,
@@ -428,25 +412,29 @@
               "anchor": null,
               "clients": [
                 {
-                  "href": "#!",
-                  "imageFileName": "logos/envato.jpg"
+                  "clientImage": "logos/mw-logo.jpg",
+                  "clientStatement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, suscipit nec aliquet eget, pretium in diam. Phasellus sodales purus sit amet elit tristique, ac hendrerit dolor commodo. Aliquam semper, massa at tristique porta, augue tellus aliquam metus, at scelerisque dui massa ac nunc. Suspendisse dictum eros sollicitudin ligula vestibulum, non consectetur elit posuere. Sed sed viverra magna. Donec sit amet egestas sapien. Suspendisse et tortor leo. Suspendisse blandit massa nec fermentum interdum. Sed a pellentesque risus. In sollicitudin felis mi, quis ultricies lorem malesuada quis.",
+                  "clientName": "Naruto"
                 },
                 {
-                  "href": "#!",
-                  "imageFileName": "logos/designmodo.jpg"
+                  "clientImage": "logos/creative-market.jpg",
+                  "clientStatement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, suscipit nec aliquet eget, pretium in diam. Phasellus sodales purus sit amet elit tristique, ac hendrerit dolor commodo. Aliquam semper, massa at tristique porta, augue tellus aliquam metus, at scelerisque dui massa ac nunc. Suspendisse dictum eros sollicitudin ligula vestibulum, non consectetur elit posuere. Sed sed viverra magna. Donec sit amet egestas sapien. Suspendisse et tortor leo. Suspendisse blandit massa nec fermentum interdum. Sed a pellentesque risus. In sollicitudin felis mi, quis ultricies lorem malesuada quis.",
+                  "clientName": "Tanjiro"
                 },
                 {
-                  "href": "#!",
-                  "imageFileName": "logos/themeforest.jpg"
+                  "clientImage": "logos/designmodo.jpg",
+                  "clientStatement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, suscipit nec aliquet eget, pretium in diam. Phasellus sodales purus sit amet elit tristique, ac hendrerit dolor commodo. Aliquam semper, massa at tristique porta, augue tellus aliquam metus, at scelerisque dui massa ac nunc. Suspendisse dictum eros sollicitudin ligula vestibulum, non consectetur elit posuere. Sed sed viverra magna. Donec sit amet egestas sapien. Suspendisse et tortor leo. Suspendisse blandit massa nec fermentum interdum. Sed a pellentesque risus. In sollicitudin felis mi, quis ultricies lorem malesuada quis.",
+                  "clientName": "Tsubasa"
                 },
                 {
-                  "href": "#!",
-                  "imageFileName": "logos/creative-market.jpg"
+                  "clientImage": "logos/themeforest.jpg",
+                  "clientStatement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus metus dolor, suscipit nec aliquet eget, pretium in diam. Phasellus sodales purus sit amet elit tristique, ac hendrerit dolor commodo. Aliquam semper, massa at tristique porta, augue tellus aliquam metus, at scelerisque dui massa ac nunc. Suspendisse dictum eros sollicitudin ligula vestibulum, non consectetur elit posuere. Sed sed viverra magna. Donec sit amet egestas sapien. Suspendisse et tortor leo. Suspendisse blandit massa nec fermentum interdum. Sed a pellentesque risus. In sollicitudin felis mi, quis ultricies lorem malesuada quis.",
+                  "clientName": "Winda Basudara"
                 }
               ],
               "content": null,
               "copyright": null,
-              "header": null,
+              "header": "Testimonial",
               "email": null,
               "imageFileName": null,
               "jumpToAnchor": null,
@@ -456,12 +444,8 @@
               "privacyHref": null,
               "privacyText": null,
               "services": null,
-              "social": {
-                "facebook": "#",
-                "twitter": "#",
-                "instagram": "#"
-              },
-              "subheader": null,
+              "social": null,
+              "subheader": "The professional’s source",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
@@ -491,6 +475,7 @@
               "privacyHref": null,
               "privacyText": null,
               "services": null,
+              "social": null,
               "subheader": "Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!",
               "teamMember": null,
               "telephone": "03-0000-0001",
