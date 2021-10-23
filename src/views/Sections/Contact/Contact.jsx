@@ -1,9 +1,4 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable import/extensions */
-/* eslint-disable no-undef */
-/* eslint-disable react/jsx-no-undef */
 /* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable import/no-unresolved */
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -14,12 +9,15 @@ import { Row } from "react-bootstrap";
 import PageSection from "components/PageSection";
 import SectionHeader from "components/SectionHeader";
 import * as SocialIcons from "components/SocialIcons";
-// import * as ContactIcons from "components/ContactIcons";
 
 import "./Contact.scss";
 
 
-const Contact = ({ className, frontmatter }) => {
+const Contact = ({ 
+  className, 
+  frontmatter,
+ }) => {
+
   if (!frontmatter) {
     return null;
   }
@@ -28,7 +26,8 @@ const Contact = ({ className, frontmatter }) => {
     anchor, 
     header: rootHeader, 
     subheader: rootSubHeader,
-    // social: { facebook, twitter, instagram },
+    content: description,
+    social: { email, location, whatsapp, facebook, twitter, instagram },
   } = frontmatter;
 
   return (
@@ -41,24 +40,18 @@ const Contact = ({ className, frontmatter }) => {
             <div className="container">
                 <div className="form">
                     <div className="contact-info">
-                        <p className="text">
-                            I am available for hire and open to any ideas of cooperation.
-                            Feel free to contact me for any project or collaboration , just send me direct message or
-                            contact me through
-                            social sites listed below and I will respond as soon as possible.
-                        </p>
-
+                        <p className="text">{description}</p>
                         <div className="info">
                             <div className="information">
-                              {/* {location ? <SocialIcons.Location userName={location} /> : null} */}
+                              {location ? <SocialIcons.Twitter userName={location} /> : null}
                               <p>Setia Budi, South Jakarta 12940</p>
                             </div>
                             <div className="information">
-                              {/* {email ? <SocialIcons.Email userName={email} /> : null} */}
+                              {email ? <SocialIcons.Twitter userName={email} /> : null}
                               <p>ambaritajohan10@gmail.com</p>
                             </div>
                             <div className="information">
-                              {/* {whatsapp ? <SocialIcons.Whatsapp userName={whatsapp} /> : null} */}
+                              {whatsapp ? <SocialIcons.Twitter userName={whatsapp} /> : null}
                               <p>62895601358111</p>
                             </div>
                         </div>
@@ -66,9 +59,9 @@ const Contact = ({ className, frontmatter }) => {
                         <div className="social-media">
                             <p>Our social media :</p>
                             <div className="social-icons">
-                              {/* {twitter ? <SocialIcons.Twitter userName={twitter} /> : null}
+                              {twitter ? <SocialIcons.Twitter userName={twitter} /> : null}
                               {facebook ? <SocialIcons.Facebook userName={facebook} /> : null}
-                              {instagram ? <SocialIcons.Instagram userName={instagram} /> : null} */}
+                              {instagram ? <SocialIcons.Instagram userName={instagram} /> : null}
                             </div>
                         </div>
                     </div>
@@ -116,11 +109,13 @@ const Contact = ({ className, frontmatter }) => {
 Contact.propTypes = {
   className: PropTypes.string,
   frontmatter: PropTypes.object,
+  social: PropTypes.object
 };
 
 Contact.defaultProps = {
   className: null,
   frontmatter: null,
+  social: PropTypes.object
 };
 
 export default Contact;

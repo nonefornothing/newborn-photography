@@ -18,8 +18,8 @@ const Client = ({clientImage , clientStatement, clientName }) => {
         imgProps={{ style: { borderRadius: "50%" } }}
         src={clientImage}
         style={{
-          width: 120,
-          height: 120,
+          width: 220,
+          height: 220,
           border: "1px solid lightgray",
           padding: 7,
           marginBottom: 0,

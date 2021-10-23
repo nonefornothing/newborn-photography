@@ -12,7 +12,7 @@ const TeamMember = ({
   header,
   subheader,
   subheaderCertificate,
-  social: { twitter, facebook,instagram},
+  social: { twitter, facebook,instagram}
 }) => {
   const twitterPart = twitter ? <SocialIcons.Twitter userName={twitter} /> : null;
   const facebookPart = facebook ? <SocialIcons.Facebook userName={facebook} /> : null;

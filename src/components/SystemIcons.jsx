@@ -27,4 +27,6 @@ export const TwitterIcon = makeFAIcon(faTwitter);
 export const FacebookIcon = makeFAIcon(faFacebook);
 export const InstagramIcon = makeFAIcon(faInstagram);
 
+// email,location,whatsapp
+
 export * from "config/CustomIcons";

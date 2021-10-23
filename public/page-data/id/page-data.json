@@ -26,7 +26,7 @@
               "anchor": null,
               "clients": null,
               "content": null,
-              "copyright": "Copyright © Start Bootstrap 2020",
+              "copyright": "Copyright © 2020 ",
               "header": null,
               "email": null,
               "imageFileName": null,
@@ -50,7 +50,8 @@
               "termsHref": "#!",
               "termsText": "Privacy Policy",
               "title": "",
-              "timeline": null
+              "timeline": null,
+              "copyrightStatement": " All right reserved"
             },
             "fields": {
               "fileName": "Footer.id",
@@ -366,9 +367,7 @@
                   "imageFileName": "team/1.jpg",
                   "social": {
                     "facebook": "#",
-                    "github": null,
-                    "linkedin": "#",
-                    "medium": null,
+                    "instagram": "#",
                     "twitter": "#"
                   },
                   "subheader": "Lead Designer",
@@ -379,9 +378,7 @@
                   "imageFileName": "team/2.jpg",
                   "social": {
                     "facebook": "#",
-                    "github": null,
-                    "linkedin": null,
-                    "medium": "#",
+                    "instagram": "#",
                     "twitter": "#"
                   },
                   "subheader": "Lead Marketer",
@@ -392,9 +389,7 @@
                   "imageFileName": "team/3.jpg",
                   "social": {
                     "facebook": "#",
-                    "github": null,
-                    "linkedin": null,
-                    "medium": "#",
+                    "instagram": "#",
                     "twitter": "#"
                   },
                   "subheader": "Lead Developer",
@@ -469,7 +464,7 @@
               "brand": null,
               "anchor": "Kontak",
               "clients": null,
-              "content": null,
+              "content": "Saya tersedia untuk disewa dan terbuka untuk ide kerjasama. Jangan ragu untuk menghubungi saya untuk proyek atau kolaborasi apa pun, cukup kirimkan saya pesan langsung atau hubungi saya melalui situs sosial yang tercantum di bawah ini dan saya akan merespons sesegera mungkin.",
               "copyright": null,
               "header": "Hubungi Kami ",
               "email": "contact@yourwebsite.com",
@@ -481,8 +476,12 @@
               "privacyHref": null,
               "privacyText": null,
               "services": null,
-              "social": null,
-              "subheader": "Saya sungkan untuk menelpon, Kami siap menjawab kepercayaan anda",
+              "social": {
+                "facebook": "#",
+                "instagram": "#",
+                "twitter": "#"
+              },
+              "subheader": "Siap untuk memulai proyek Anda berikutnya bersama kami? Hubungi kami atau kirim email kepada kami dan kami akan menghubungi Anda sesegera mungkin!",
               "teamMember": null,
               "telephone": "03-0000-0001",
               "termsHref": null,

@@ -26,7 +26,7 @@
               "anchor": null,
               "clients": null,
               "content": null,
-              "copyright": "Copyright © Start Bootstrap 2020",
+              "copyright": "Copyright © 2021 ",
               "header": null,
               "email": null,
               "imageFileName": null,
@@ -50,7 +50,8 @@
               "termsHref": "#!",
               "termsText": "Terms of Use",
               "title": "",
-              "timeline": null
+              "timeline": null,
+              "copyrightStatement": " All right reserved"
             },
             "fields": {
               "fileName": "Footer.en",
@@ -463,7 +464,7 @@
               "brand": null,
               "anchor": "Contact",
               "clients": null,
-              "content": null,
+              "content": "I am available for hire and open to any ideas of cooperation. Feel free to contact me for any project or collaboration , just send me direct message or contact me through social sites listed below and I will respond as soon as possible.",
               "copyright": null,
               "header": "Let's Get In Touch!",
               "email": "contact@yourwebsite.com",
@@ -475,7 +476,11 @@
               "privacyHref": null,
               "privacyText": null,
               "services": null,
-              "social": null,
+              "social": {
+                "facebook": "#",
+                "instagram": "#",
+                "twitter": "#"
+              },
               "subheader": "Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!",
               "teamMember": null,
               "telephone": "03-0000-0001",
