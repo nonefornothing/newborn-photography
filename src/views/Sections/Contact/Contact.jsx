@@ -5,9 +5,12 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from "react";
 import PropTypes from "prop-types";
+import emailjs from 'emailjs-com';
+import Swal from "sweetalert2";
 
-// import { Row, Col } from "react-bootstrap";
-import { Row } from "react-bootstrap";
+
+
+ import { Row, Col } from "react-bootstrap";
 
 // import Icon from "components/Icon";
 import PageSection from "components/PageSection";
@@ -16,9 +19,9 @@ import * as SocialIcons from "components/SocialIcons";
 
 import "./Contact.scss";
 
-import {Helmet} from "react-helmet";
-
-
+const SERVICE_ID = "service_4qzxj2v";
+const TEMPLATE_ID = "template_gjrt75h";
+const USER_ID = "user_3JP4RvKuuDYsk7j9SxiRB";
 
 const Contact = ({ 
   className, 
@@ -36,6 +39,28 @@ const Contact = ({
     content: description,
     social: { email, location, whatsapp, facebook, twitter, instagram },
   } = frontmatter;
+
+
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+      .then((result) => {
+        console.log(result.text);
+        Swal.fire({
+          icon: "success",
+          title: "Message Sent Successfully"
+        })
+      }, (error) => {
+        console.log(error.text);
+        Swal.fire({
+          icon: "error",
+          title:"Ooops, something went wrong",
+          text: error.text,
+        })
+      });
+    e.target.reset()
+  };
+
 
   return (
     <PageSection className={className} id={anchor}>
@@ -71,37 +96,30 @@ const Contact = ({
                         </div>
                     </div>
 
-                    <div className="contact-form">
-                        <form autoComplete="off" id="contactForm">
-                            <div className="input-container">
-                                <input type="text" name="name" className="input" id="name" required />
-                                <label>Username</label>
-                                <span>Username</span>
-                            </div>
-                            <div className="input-container">
-                                <input type="email" name="email" className="input" id="email" required />
-                                <label htmlFor="">Email</label>
-                                <span>Email</span>
-                            </div>
-                            <div className="input-container">
-                                <input type="tel" name="phone" className="input" id="phone" required />
-                                <label>Phone</label>
-                                <span>Phone</span>
-                            </div>
-                            <div className="input-container textarea">
-                                <textarea name="message" className="input" id="message" required />
-                                <label>Message</label>
-                                <span>Message</span>
-                            </div>
 
-                            <div className="button">
-                                <button className="button btn" type="submit" data-hover="Let's Work Together"
-                                    value="Send" ><span>Submit</span></button>
-                            </div>
+                     <div className="contact-form">
+                         <form autoComplete="off" id="contactForm" onSubmit={handleOnSubmit}>
+                             <div className="input-container">
+                                 <input type="text" name="from_name" className="input" placeholder="Name" id="from_name" required />
+                             </div>
+                             <div className="input-container">
+                                 <input type="email" name="email" className="input" placeholder="Email" id="email" required />
+                             </div>
+                             <div className="input-container">
+                                 <input type="tel" name="phone" className="input" placeholder="Phone Number" id="phone" required />
+                             </div>
+                             <div className="input-container textarea">
+                                 <textarea name="message" className="input" placeholder="message" id="message" required />
+                             </div>
 
-                            <div className="alert">Your message has been sent</div>
+                             <div className="button">
+                                 <button className="button btn" type="submit" data-hover="Let's Work Together"
+                                     value="Send" ><span>Submit</span></button>
+                             </div>
 
-                        </form>
+                             <div className="alert">Your message has been sent</div>
+
+                         </form>
                     </div>
                 </div>
             </div>

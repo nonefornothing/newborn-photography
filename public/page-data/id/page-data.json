@@ -107,7 +107,7 @@
               "privacyText": null,
               "services": null,
               "social": null,
-              "subheader": "Welcome To Our Studio!",
+              "subheader": "Selamat Datang ke Studio Kami !",
               "teamMember": null,
               "telephone": null,
               "termsHref": null,
@@ -345,11 +345,11 @@
           {
             "frontmatter": {
               "brand": null,
-              "anchor": "Kelompok",
+              "anchor": "Tim",
               "clients": null,
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut risus sit amet mauris congue aliquet vitae a risus. Praesent gravida tellus sit amet maximus auctor. Pellentesque ac orci eget enim dignissim aliquam. Praesent rutrum ultricies lacus eget tincidunt.",
               "copyright": null,
-              "header": "Anggota Team",
+              "header": "Anggota Tim",
               "email": null,
               "imageFileName": null,
               "jumpToAnchor": null,
