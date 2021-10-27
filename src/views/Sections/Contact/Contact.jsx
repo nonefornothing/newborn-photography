@@ -10,7 +10,7 @@ import Swal from "sweetalert2";
 
 
 
- import { Row, Col } from "react-bootstrap";
+ import { Row } from "react-bootstrap";
 
 // import Icon from "components/Icon";
 import PageSection from "components/PageSection";
