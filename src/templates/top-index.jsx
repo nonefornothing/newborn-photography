@@ -37,10 +37,15 @@ export const query = graphql`
           clients {
             href
             imageFileName
+            clientImage
+            clientStatement
+            clientName
           }
           content
           copyright
+          copyrightStatement
           header
+          slogan
           email
           imageFileName
           jumpToAnchor
@@ -64,10 +69,11 @@ export const query = graphql`
           }
           social {
             facebook
-            github
-            linkedin
-            medium
+            instagram
+            location
+            email
             twitter
+            whatsapp
           }
           subheader
           teamMember {
@@ -75,12 +81,11 @@ export const query = graphql`
             imageFileName
             social {
               facebook
-              github
-              linkedin
-              medium
               twitter
+              instagram
             }
             subheader
+            subheaderCertificate
           }
           telephone
           termsHref

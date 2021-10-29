@@ -38,9 +38,14 @@ exports.createSchemaCustomization = ({ actions }) => {
       social: Social
       services: [Service]
       teamMember: [TeamMember]
+      slogan: String
     }`,
     `type TeamMember {
       social: Social
+      imageFileName: String
+      header: String
+      subheader: String
+      subheaderCertificate: String
     }`,
     `type Service {
       iconName: String

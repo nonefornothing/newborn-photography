@@ -4,4 +4,6 @@ subheader: "Welcome To Our Studio!"
 imageFileName: "header-bg.jpg"
 jumpToAnchor: "Services"
 jumpToAnchorText: "Tell Me More"
+slogan: "CAPTURE MOMENT"
+
 ---

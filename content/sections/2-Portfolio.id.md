@@ -1,55 +1,79 @@
 ---
-anchor: "Portfolio"
-header: "Portfolio"
-subheader: "Bahasa"
+anchor: "Portofolio"
+header: "Portofolio"
+subheader: "Pekerjaan kami untuk kebahagiaan pelanggan"
 portfolios: [
   {
-    imageFileName: "portfolio/01-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/01-full.jpg",
-    header: "Threads",
-    subheader: "Illustration",
-    content: "Bahasa Indonesia",
-    extraInfo: ["Date: January 2017", "Client: Threads", "Category: Illustration"]
+    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    extraInfo: [
+      "Tanggal: January 2017",
+      "Client: Threads",
+      "Category: Illustration"
+    ],
+    header : "Acara Pemotretan",
+    subheader : "Pemotretan Bayi baru lahir",
+    imageFileNameDetail : "portfolio/batak-full.jpg",
+    imageFileName : "portfolio/batak-thumbnail.jpg"
   },
   {
-    imageFileName: "portfolio/02-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/02-full.jpg",
-    header: "Explorer",
-    subheader: "Graphic Design",
-    content: "Bahasa Indonesia",
-    extraInfo: ["Date： January 2017", "Client: Explorer", "Category: Graphic Design"]
+    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    extraInfo : [
+      "Date: January 2017",
+      "Client: Explorer",
+      "Category: Graphic Design"
+    ],
+    header : "Acara Pemotretan",
+    subheader : "Pemotretan Bayi baru lahir",
+    imageFileNameDetail : "portfolio/jawa-full.jpg",
+    imageFileName : "portfolio/jawa-thumbnail.jpg"
   },
   {
-    imageFileName: "portfolio/03-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/03-full.jpg",
-    header: "Finish",
-    subheader: "Identity",
-    content: "Bahasa Indonesia",
-    extraInfo: ["Date： January 2017", "Client: Finish", "Category: Identity"]
+    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    extraInfo : [
+      "Date: January 2017",
+      "Client: Finish",
+      "Category: Identity"
+    ],
+    header : "Acara Pemotretan",
+    subheader : "Pemotretan Bayi baru lahir",
+    imageFileNameDetail : "portfolio/cute-full.jpg",
+    imageFileName : "portfolio/cute-thumbnail.jpg"
   },
   {
-    imageFileName: "portfolio/04-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/04-full.jpg",
-    header: "Lines",
-    subheader: "Branding",
-    content: "Bahasa Indonesia",
-    extraInfo: ["Date： January 2017", "Client: Lines", "Category: Branding"]
+    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    extraInfo : [
+      "Date: January 2017",
+      "Client: Lines",
+      "Category: Branding"
+    ],
+    header : "Acara Pemotretan",
+    subheader : "Pemotretan Bayi baru lahir",
+    imageFileNameDetail : "portfolio/biker-full.jpg",
+    imageFileName : "portfolio/biker-thumbnail.jpg"
   },
   {
-    imageFileName: "portfolio/05-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/05-full.jpg",
-    header: "Southwest",
-    subheader: "Website Design",
-    content: "Bahasa Indonesia",
-    extraInfo: ["Date： January 2017", "Client: Southwest", "Category: Website Design"]
+    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    extraInfo : [
+      "Date: January 2017",
+      "Client: Southwest",
+      "Category: Website Design"
+    ],
+    header : "Acara Pemotretan",
+    subheader : "Pemotretan Bayi baru lahir",
+    imageFileNameDetail : "portfolio/sleep-full.jpg",
+    imageFileName : "portfolio/sleep-thumbnail.jpg"
   },
   {
-    imageFileName: "portfolio/06-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/06-full.jpg",
-    header: "Window",
-    subheader: "Photography",
-    content: "Bahasa Indonesia",
-    extraInfo: ["Date： January 2017", "Client: Window", "Category: Photography"]
+    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    extraInfo : [
+      "Date: January 2017",
+      "Client: Window",
+      "Category: Photography"
+    ],
+    header : "Acara Pemotretan",
+    subheader : "Pemotretan Bayi baru lahir",
+    imageFileNameDetail : "portfolio/twins-baby-full.jpg",
+    imageFileName : "portfolio/twins-baby-thumbnail.jpg"
   }
 ]
 ---

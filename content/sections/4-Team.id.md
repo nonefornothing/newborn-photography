@@ -1,38 +1,41 @@
 ---
-anchor: "Kelompok"
-header: "Anggota Team kami"
-subheader: "Hobi yang dibayar"
-content: "Katanya"
+anchor: "Tim"
+header: "Tim Luar Biasa Kami"
+subheader: "Di keluarga ini, semua orang fotogenik"
+content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 teamMember: [
   {
     imageFileName: "team/1.jpg",
     header: "Kay Garland",
     subheader: "Lead Designer",
+    subheaderCertificate: "Certified Newborn Photographer",
     social: {
       twitter: "#",
-      facebook: "#",
-      linkedin: "#"
+      instagram: "#",
+      facebook: "#"
     }
   },
   {
     imageFileName: "team/2.jpg",
     header: "Larry Parker",
     subheader: "Lead Marketer",
+    subheaderCertificate: "Certified Newborn Photographer",
     social: {
       twitter: "#",
-      facebook: "#",
-      medium: "#"
+      instagram: "#",
+      facebook: "#"
     }
   },
   {
     imageFileName: "team/3.jpg",
     header: "Diana Pertersen",
     subheader: "Lead Developer",
+    subheaderCertificate: "Certified Newborn Photographer",
     social: {
       twitter: "#",
-      facebook: "#",
-      medium: "#"
+      instagram: "#",
+      facebook: "#"
     }
-  },
+  }
 ]
 ---

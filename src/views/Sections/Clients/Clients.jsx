@@ -25,7 +25,7 @@ const Clients = ({ frontmatter }) => {
     <PageSection className="carousel-wrapper" id={anchor} >
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
         <Carousel infiniteLoop useKeyboardArrows autoPlay  >
-          {clients.map(({ clientImage , clientStatement, clientName  }) => (
+          {clients.map(({ clientStatement, clientName  }) => (
             <div
             style={{
               display: "flex",

@@ -1,7 +1,7 @@
 ---
-anchor: "Tentang Saya"
-header: "Tentang Saya"
-subheader: "Bahasa Indonesia"
+anchor: "Tentang"
+header: "Tentang Kami"
+subheader: "Sebuah Cerita Fotografi"
 timeline: [
   {
     imageFileName: "about/1.jpg",

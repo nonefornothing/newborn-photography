@@ -1,4 +1,4 @@
 ---
-brand: "Start Bootstrap"
+brand: "MW Moto"
 menuText: "Menu"
 ---
