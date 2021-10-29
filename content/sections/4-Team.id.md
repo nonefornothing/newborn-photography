@@ -17,7 +17,7 @@ teamMember: [
   },
   {
     imageFileName: "team/2.jpg",
-    header: "Larry Parker",
+    header: "Jeremi Ambarita aka TITO",
     subheader: "Lead Marketer",
     subheaderCertificate: "Certified Newborn Photographer",
     social: {
