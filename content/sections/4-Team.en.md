@@ -2,38 +2,38 @@
 anchor: "Team"
 header: "Our Amazing Team"
 subheader: "In this family, everyone is photogenic"
-content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+content: ""
 teamMember: [
   {
     imageFileName: "team/1.jpg",
-    header: "Kay Garland",
-    subheader: "Lead Designer",
+    header: "Martin",
+    subheader: "Photographer",
     subheaderCertificate: "Certified Newborn Photographer",
     social: {
       twitter: "#",
-      instagram: "#",
+      instagram: "mrthns_ambarita",
       facebook: "#"
     }
   },
   {
     imageFileName: "team/2.jpg",
-    header: "Jeremi Ambarita aka TITO",
-    subheader: "Lead Marketer",
+    header: "Winda",
+    subheader: "Baby Stylist and Editor",
     subheaderCertificate: "Certified Newborn Photographer",
     social: {
       twitter: "#",
-      instagram: "#",
+      instagram: "felicia_winda",
       facebook: "#"
     }
   },
   {
     imageFileName: "team/3.jpg",
-    header: "Diana Pertersen",
-    subheader: "Lead Developer",
-    subheaderCertificate: "Certified Newborn Photographer",
+    header: "Jeremi",
+    subheader: "Marketer",
+    subheaderCertificate: "Head of Promotion",
     social: {
       twitter: "#",
-      instagram: "#",
+      instagram: "#jeremi_ambarita",
       facebook: "#"
     }
   }

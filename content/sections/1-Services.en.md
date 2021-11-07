@@ -5,18 +5,18 @@ subheader: "Extraordinary service for extraordinary customers"
 services: [
   {
     iconName: "CameraIcon",
-    header: "Event Photographer",
-    content: "Weddings, Graduation, Corporate Events, Engagement, Family Photoshoots, Product Shoots/ Profiles and 👶 Newborn baby (5-14 days) photoshoot "
+    header: "Newborn Photography",
+    content: "Capture baby moments with various cute and interesting themes"
   },
   {
-    iconName: "VideoIcon",
-    header: "Video Promo",
-    content: "On Location Promo & In Studio Promo"
+    iconName: "HomeIcon",
+    header: "Studio & Home Service",
+    content: "Shooting in the studio or at the customer's house"
   },
   {
     iconName: "PaintBrushIcon",
-    header: "Design Graphic",
-    content: "Business Cards, Logo design, Flyers, Brochure, Poster Design"
+    header: "Editing",
+    content: "Parents can ask our team to edit baby photos as they wish"
   }
 ]
 ---

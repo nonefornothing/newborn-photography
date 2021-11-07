@@ -5,27 +5,27 @@ subheader: "A Photographic Story"
 timeline: [
   {
     imageFileName: "about/1.jpg",
-    header: "2009-2011",
+    header: "2016",
     subheader: "Our Humble Beginnings",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    content: "CV MW art production officially established"
   },
   {
     imageFileName: "about/2.jpg",
-    header: "March 2011",
-    subheader: "An Agency is Born",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    header: "2016 -  Now",
+    subheader: "Valuable cooperation",
+    content: "Collaborating with the Hospital in the service of newborn baby photo souvenirs"
   },
   {
     imageFileName: "about/3.jpg",
-    header: "December 2012",
-    subheader: "Transition to Full Service",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    header: "January 2021 - Now",
+    subheader: "Transform",
+    content: "Pursuing one of the fields of photography that is more in-depth with newborns, Newborn Photography"
   },
   {
     imageFileName: "about/4.jpg",
-    header: "July 2014",
-    subheader: "Phase Two Expansion",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    header: "June 2021",
+    subheader: "Seminar",
+    content: "Attend a seminar held by RaraIsMom in the field of Baby Newborn Photography"
   },
   {
     imageContent: "Be Part\r\nOf Our\r\nStory!"

@@ -4,11 +4,11 @@ header: "Portfolio"
 subheader: "Our work for customer happiness"
 portfolios: [
   {
-    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    content : "This photo shoot was done in our studio with an archipelago theme. The model is photographed wearing traditional North Sumatran traditional clothes from the Batak tribe",
     extraInfo: [
-      "Date: January 2017",
-      "Client: Threads",
-      "Category: Illustration"
+      "Date: Sept 2021",
+      "Client: ?",
+      "Category: Studio PhotoShoot"
     ],
     header : "Event Photographer",
     subheader : "NewBorn Photography",
@@ -16,11 +16,11 @@ portfolios: [
     imageFileName : "portfolio/batak-thumbnail.jpg"
   },
   {
-    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    content : "This photo shoot was done in our studio with an archipelago theme. The model is photographed wearing Javanese traditional clothes",
     extraInfo : [
-      "Date: January 2017",
-      "Client: Explorer",
-      "Category: Graphic Design"
+      "Date: October 2021",
+      "Client: ?",
+      "Category: Studio PhotoShoot"
     ],
     header : "Event Photographer",
     subheader : "NewBorn Photography",
@@ -28,11 +28,11 @@ portfolios: [
     imageFileName : "portfolio/jawa-thumbnail.jpg"
     },
     {
-      content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+      content : "This photoshoot was done in our studio with a Christmas theme. The model in the photo is wearing the clothes worn by Santa Claus",
       extraInfo : [
-        "Date: January 2017",
-        "Client: Finish",
-        "Category: Identity"
+        "Date: October 2021",
+        "Client: ?",
+        "Category: Studio PhotoShoot"
       ],
       header : "Event Photographer",
       subheader : "NewBorn Photography",
@@ -40,11 +40,11 @@ portfolios: [
       imageFileName : "portfolio/cute-thumbnail.jpg"
       },
       {
-        content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+        content : "This photoshoot was done in our studio with a religious theme. The model is photographed wearing clothes that are usually used in the Middle East area",
         extraInfo : [
-          "Date: January 2017",
-          "Client: Lines",
-          "Category: Branding"
+          "Date: October 2021",
+          "Client: ?",
+          "Category: Studio PhotoShoot"
         ],
         header : "Event Photographer",
         subheader : "NewBorn Photography",
@@ -52,11 +52,11 @@ portfolios: [
         imageFileName : "portfolio/biker-thumbnail.jpg"
       },
       {
-        content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+        content: "This photo shoot was done in our studio with a cute theme. The model is photographed wearing a nightgown with a starry night background",
         extraInfo : [
-          "Date: January 2017",
-          "Client: Southwest",
-          "Category: Website Design"
+          "Date: September 2021",
+          "Client: Dina",
+          "Category: Studio PhotoShoot"
         ],
         header : "Event Photographer",
         subheader : "NewBorn Photography",
@@ -64,11 +64,11 @@ portfolios: [
         imageFileName : "portfolio/sleep-thumbnail.jpg"
         },
         {
-          content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+          content : "This photoshoot was done in our studio with a nature theme. The model is photographed as if in the photo above a tree trunk surrounded by butterflies",
           extraInfo : [
-            "Date: January 2017",
-            "Client: Window",
-            "Category: Photography"
+            "Date: ?",
+            "Client: ?",
+            "Category: Studio PhotoShoot"
           ],
           header : "Event Photographer",
           subheader : "NewBorn Photography",

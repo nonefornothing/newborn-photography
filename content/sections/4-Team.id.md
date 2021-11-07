@@ -2,38 +2,38 @@
 anchor: "Tim"
 header: "Tim Luar Biasa Kami"
 subheader: "Di keluarga ini, semua orang fotogenik"
-content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+content: ""
 teamMember: [
   {
     imageFileName: "team/1.jpg",
-    header: "Kay Garland",
-    subheader: "Lead Designer",
-    subheaderCertificate: "Certified Newborn Photographer",
+    header: "Martin",
+    subheader: "Juru Potret",
+    subheaderCertificate: "Sertifikat Newborn Photographer",
     social: {
       twitter: "#",
-      instagram: "#",
+      instagram: "mrthns_ambarita",
       facebook: "#"
     }
   },
   {
     imageFileName: "team/2.jpg",
-    header: "Jeremi Ambarita aka TITO",
-    subheader: "Lead Marketer",
-    subheaderCertificate: "Certified Newborn Photographer",
+    header: "Winda",
+    subheader: "Penata bayi dan Editor",
+    subheaderCertificate: "Sertifikat Newborn Photographer",
     social: {
       twitter: "#",
-      instagram: "#",
+      instagram: "felicia_winda",
       facebook: "#"
     }
   },
   {
     imageFileName: "team/3.jpg",
-    header: "Diana Pertersen",
-    subheader: "Lead Developer",
-    subheaderCertificate: "Certified Newborn Photographer",
+    header: "Jeremi",
+    subheader: "Pemasaran",
+    subheaderCertificate: "Kepala Promosi",
     social: {
       twitter: "#",
-      instagram: "#",
+      instagram: "jeremi_ambarita",
       facebook: "#"
     }
   }

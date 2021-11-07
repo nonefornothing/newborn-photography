@@ -1,4 +1,4 @@
 ---
-brand: "MW Moto"
+brand: "MW_moto"
 menuText: "Menu"
 ---

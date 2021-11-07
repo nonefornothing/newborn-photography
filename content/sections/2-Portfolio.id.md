@@ -4,11 +4,11 @@ header: "Portofolio"
 subheader: "Pekerjaan kami untuk kebahagiaan pelanggan"
 portfolios: [
   {
-    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    content : "Pemotretan ini dilakukan di studio kami dengan tema nusantara. Model yang dipotret mengunakan baju khas adat sumatera utara dari suku batak",
     extraInfo: [
-      "Tanggal: January 2017",
-      "Client: Threads",
-      "Category: Illustration"
+      "Tanggal: Sept 2021",
+      "Client: ?",
+      "Category: Pemotretan Studio "
     ],
     header : "Acara Pemotretan",
     subheader : "Pemotretan Bayi baru lahir",
@@ -16,11 +16,11 @@ portfolios: [
     imageFileName : "portfolio/batak-thumbnail.jpg"
   },
   {
-    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    content : "Pemotretan ini dilakukan di studio kami dengan tema nusantara. Model yang dipotret mengunakan baju khas adat Jawa",
     extraInfo : [
-      "Date: January 2017",
-      "Client: Explorer",
-      "Category: Graphic Design"
+      "Date: Oktober 2021",
+      "Client: ?",
+      "Category: Pemotretan Studio"
     ],
     header : "Acara Pemotretan",
     subheader : "Pemotretan Bayi baru lahir",
@@ -28,11 +28,11 @@ portfolios: [
     imageFileName : "portfolio/jawa-thumbnail.jpg"
   },
   {
-    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    content : "Pemotretan ini dilakukan di studio kami dengan tema natal. Model yang dipotret mengunakan baju yang dikenakan santa claus",
     extraInfo : [
-      "Date: January 2017",
-      "Client: Finish",
-      "Category: Identity"
+      "Date: Oktober 2021",
+      "Client: ?",
+      "Category: Pemotretan Studio"
     ],
     header : "Acara Pemotretan",
     subheader : "Pemotretan Bayi baru lahir",
@@ -40,11 +40,11 @@ portfolios: [
     imageFileName : "portfolio/cute-thumbnail.jpg"
   },
   {
-    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    content : "Pemotretan ini dilakukan di studio kami dengan tema keagamaan. Model yang dipotret mengunakan baju yang biasanya digunakan di daerah Timur Tengah",
     extraInfo : [
-      "Date: January 2017",
-      "Client: Lines",
-      "Category: Branding"
+      "Date: Oktober 2021",
+      "Client: ?",
+      "Category: Pemotretan Studio"
     ],
     header : "Acara Pemotretan",
     subheader : "Pemotretan Bayi baru lahir",
@@ -52,11 +52,11 @@ portfolios: [
     imageFileName : "portfolio/biker-thumbnail.jpg"
   },
   {
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    content: "Pemotretan ini dilakukan di studio kami dengan tema lucu. Model yang dipotret mengunakan baju tidur dengan latar suasana malam yang penuh bintang",
     extraInfo : [
-      "Date: January 2017",
-      "Client: Southwest",
-      "Category: Website Design"
+      "Date: September 2021",
+      "Client: Dina",
+      "Category: Pemotretan Studio"
     ],
     header : "Acara Pemotretan",
     subheader : "Pemotretan Bayi baru lahir",
@@ -64,11 +64,11 @@ portfolios: [
     imageFileName : "portfolio/sleep-thumbnail.jpg"
   },
   {
-    content : "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+    content : "Pemotretan ini dilakukan di studio kami dengan tema alam. Model yang dipotret seolah - olah di foto diatas batang pohon yang dikelilingi kupu kupu",
     extraInfo : [
-      "Date: January 2017",
-      "Client: Window",
-      "Category: Photography"
+      "Date: ?",
+      "Client: ?",
+      "Category: Pemotretan Studio"
     ],
     header : "Acara Pemotretan",
     subheader : "Pemotretan Bayi baru lahir",

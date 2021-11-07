@@ -79,7 +79,7 @@ const Contact = ({
                             </div>
                             <div className="information">
                               
-                              <p>{email ? <SocialIcons.Email userName={email} /> : null}<span>mwmotophotography@gmail.com</span></p>
+                              <p>{email ? <SocialIcons.Email userName={email} /> : null}<span>cvmwartproduction@gmail.com</span></p>
                             </div>
                             <div className="information">
                               <p>{whatsapp ? <SocialIcons.Whatsapp userName={whatsapp} /> : null}<span>+62 813-1452-9004</span></p>
