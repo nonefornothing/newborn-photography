@@ -21,8 +21,8 @@ const RunningText = ({ slogan }) => {
 		  <use xlinkHref="#s-text" className="text-copy" />
 		  <use xlinkHref="#s-text" className="text-copy" />
       <use xlinkHref="#s-text" className="text-copy" />
-		  <use xlinkHref="#s-text" className="text-copy" />
-		  <use xlinkHref="#s-text" className="text-copy" />
+      <use xlinkHref="#s-text" className="text-copy" />
+      <use xlinkHref="#s-text" className="text-copy" />
 	  </g>
   </svg>
   );

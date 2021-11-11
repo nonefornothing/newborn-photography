@@ -15,9 +15,11 @@ const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, slog
       <Card.ImgOverlay className="no-padding">
         <Container>
           <div className="intro-text">
-            <div className="intro-lead-in">{subheader}</div>
+            <div className="intro-lead-in">
+              {subheader}
+            </div>
           </div>
-          <RunningText slogan={slogan} />
+          <RunningText className="running-text" slogan={slogan} />
         </Container>
       </Card.ImgOverlay>
     </Card>

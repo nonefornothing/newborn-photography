@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable react/jsx-key */
 import React from "react";
 import PropTypes from "prop-types";
@@ -6,8 +7,10 @@ import PageSection from "components/PageSection";
 import SectionHeader from "components/SectionHeader";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Collapse } from 'antd';
+import 'antd/dist/antd.css';
 
-
+const { Panel } = Collapse;
 
 const Clients = ({ frontmatter }) => {
   if (!frontmatter) {
@@ -18,7 +21,10 @@ const Clients = ({ frontmatter }) => {
     anchor,
     header: rootHeader,
     subheader: rootSubHeader,
-    clients
+    clients,
+    questions,
+    headerFaq,
+    subheaderFaq
   } = frontmatter;
 
   return (
@@ -41,6 +47,17 @@ const Clients = ({ frontmatter }) => {
             </div>
           ))}
         </Carousel>
+
+        <SectionHeader header={headerFaq} subheader={subheaderFaq} />
+        <Collapse accordion>
+          {questions.map(({ question, answer, key  }) => (
+              <Panel header={question} key={key} style={{
+                fontSize: "2vw",
+                }}>
+                <p>{answer}</p>
+              </Panel>
+              ))}
+        </Collapse>
     </PageSection>
   );
 };

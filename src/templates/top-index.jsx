@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
@@ -41,6 +42,13 @@ export const query = graphql`
             clientStatement
             clientName
           }
+          questions {
+            question
+            answer
+            key
+          }
+          headerFaq
+          subheaderFaq
           content
           copyright
           copyrightStatement

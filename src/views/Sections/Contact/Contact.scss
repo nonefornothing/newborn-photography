@@ -9,6 +9,7 @@
 .contact .container {
   position: relative;
   width: 100%;
+  background-color: #fff;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -17,6 +18,7 @@
 .contact .form {
   width: 100%;
   max-width: 920px;
+  background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -152,7 +154,6 @@
 .contact .contact-info {
   padding: 2.5rem 2.2rem;
   position: relative;
-  background: url(/asses/X-modified.svg) no-repeat center ;
   /* background-image: url(/asses/X-modified.svg) no-repeat center ; */
 }
 .contact .contact-info .contact-title {
@@ -312,3 +313,13 @@
     transition-delay: 0s;
 }
 
+/* Media queries for responsive web */
+
+/* Extra small devices (phones, 600px and done) */
+@media only screen and (max-width: 600px) {
+
+      .contact .form {
+        grid-template-columns: 1fr;
+      }
+
+}

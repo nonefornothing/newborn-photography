@@ -31,3 +31,16 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .image-card {
+    .image {
+    }
+    .intro-text {
+      .intro-lead-in {
+        font-size: 2em;
+        line-height: 1em;
+      }
+    }
+  }
+}

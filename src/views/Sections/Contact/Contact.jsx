@@ -1,3 +1,4 @@
+/* eslint-disable vars-on-top */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable no-undef */
 /* eslint-disable react/no-this-in-sfc */
@@ -5,23 +6,14 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from "react";
 import PropTypes from "prop-types";
-import emailjs from 'emailjs-com';
-import Swal from "sweetalert2";
-
-
 
  import { Row } from "react-bootstrap";
 
-// import Icon from "components/Icon";
 import PageSection from "components/PageSection";
 import SectionHeader from "components/SectionHeader";
 import * as SocialIcons from "components/SocialIcons";
 
 import "./Contact.scss";
-
-const SERVICE_ID = "service_4qzxj2v";
-const TEMPLATE_ID = "template_gjrt75h";
-const USER_ID = "user_3JP4RvKuuDYsk7j9SxiRB";
 
 const Contact = ({ 
   className, 
@@ -43,21 +35,19 @@ const Contact = ({
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-      .then((result) => {
-        console.log(result.text);
-        Swal.fire({
-          icon: "success",
-          title: "Message Sent Successfully"
-        })
-      }, (error) => {
-        console.log(error.text);
-        Swal.fire({
-          icon: "error",
-          title:"Ooops, something went wrong",
-          text: error.text,
-        })
-      });
+    
+    const name = document.getElementById("from_name").value;
+    const emailaddress = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const message = document.getElementById("message").value;
+
+    const url = "https://wa.me/6281314529004?text=" 
+    + "Name: " + name + "%0a"
+    + "Email: " + emailaddress + "%0a"
+    + "Phone Number: " + phone  + "%0a"
+    + "Message: " + message; 
+
+    window.open(url, '_blank').focus();
     e.target.reset()
   };
 
@@ -89,8 +79,8 @@ const Contact = ({
                         <div className="social-media">
                             <p>Our social media :</p>
                             <div className="social-icons">
-                              {twitter ? <SocialIcons.Twitter userName={twitter} /> : null}
-                              {facebook ? <SocialIcons.Facebook userName={facebook} /> : null}
+                              {/* {twitter ? <SocialIcons.Twitter userName={twitter} /> : null}
+                              {facebook ? <SocialIcons.Facebook userName={facebook} /> : null} */}
                               {instagram ? <SocialIcons.Instagram userName={instagram} /> : null}
                             </div>
                         </div>

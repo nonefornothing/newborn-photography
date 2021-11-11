@@ -29,8 +29,8 @@ const TeamMember = ({
       <p className="text-muted">{subheaderCertificate}</p>
       <p className="text-muted">{subheader}</p>
       <div>
-        {twitterPart}
-        {facebookPart}
+        {/* {twitterPart}
+        {facebookPart} */}
         {instagramPart}
       </div>
     </div>
