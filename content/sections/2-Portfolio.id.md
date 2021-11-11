@@ -7,7 +7,6 @@ portfolios: [
     content : "Pemotretan ini dilakukan di studio kami dengan tema nusantara. Model yang dipotret mengunakan baju khas adat sumatera utara dari suku batak",
     extraInfo: [
       "Tanggal: Sept 2021",
-      "Client: ?",
       "Category: Pemotretan Studio "
     ],
     header : "Acara Pemotretan",
@@ -19,7 +18,6 @@ portfolios: [
     content : "Pemotretan ini dilakukan di studio kami dengan tema nusantara. Model yang dipotret mengunakan baju khas adat Jawa",
     extraInfo : [
       "Date: Oktober 2021",
-      "Client: ?",
       "Category: Pemotretan Studio"
     ],
     header : "Acara Pemotretan",
@@ -31,7 +29,6 @@ portfolios: [
     content : "Pemotretan ini dilakukan di studio kami dengan tema natal. Model yang dipotret mengunakan baju yang dikenakan santa claus",
     extraInfo : [
       "Date: Oktober 2021",
-      "Client: ?",
       "Category: Pemotretan Studio"
     ],
     header : "Acara Pemotretan",
@@ -43,7 +40,6 @@ portfolios: [
     content : "Pemotretan ini dilakukan di studio kami dengan tema keagamaan. Model yang dipotret mengunakan baju yang biasanya digunakan di daerah Timur Tengah",
     extraInfo : [
       "Date: Oktober 2021",
-      "Client: ?",
       "Category: Pemotretan Studio"
     ],
     header : "Acara Pemotretan",
@@ -55,7 +51,6 @@ portfolios: [
     content: "Pemotretan ini dilakukan di studio kami dengan tema lucu. Model yang dipotret mengunakan baju tidur dengan latar suasana malam yang penuh bintang",
     extraInfo : [
       "Date: September 2021",
-      "Client: Dina",
       "Category: Pemotretan Studio"
     ],
     header : "Acara Pemotretan",
@@ -66,8 +61,7 @@ portfolios: [
   {
     content : "Pemotretan ini dilakukan di studio kami dengan tema alam. Model yang dipotret seolah - olah di foto diatas batang pohon yang dikelilingi kupu kupu",
     extraInfo : [
-      "Date: ?",
-      "Client: ?",
+      "Date: Juli 2021",
       "Category: Pemotretan Studio"
     ],
     header : "Acara Pemotretan",

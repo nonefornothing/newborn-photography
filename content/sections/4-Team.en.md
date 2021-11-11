@@ -33,7 +33,7 @@ teamMember: [
     subheaderCertificate: "Head of Promotion",
     social: {
       twitter: "#",
-      instagram: "#jeremi_ambarita",
+      instagram: "jeremi_ambarita",
       facebook: "#"
     }
   }
