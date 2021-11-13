@@ -4,9 +4,6 @@
 
 gatsby version of startbootstrap-agency with i18n supported.
 
-[![dependencies Status](https://david-dm.org/thundermiracle/gatsby-startbootstrap-agency/status.svg)](https://david-dm.org/thundermiracle/gatsby-startbootstrap-agency)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0a8bfd50-2bd5-43a6-bacd-51e5efc1f248/deploy-status)](https://app.netlify.com/sites/gatsby-startbootstrap-agency/deploys)
-
 __This project is migrated to Gatsby@v3, check the latest Gatsby@v2 version [here](https://github.com/thundermiracle/gatsby-startbootstrap-agency/tree/gatsby-2.0).__
 
 ## Preview
@@ -15,7 +12,7 @@ __This project is migrated to Gatsby@v3, check the latest Gatsby@v2 version [her
 
 ## Sample page
 
-[https://gatsby-startbootstrap-agency.netlify.app](https://gatsby-startbootstrap-agency.netlify.app)
+[https://mwartproduction.gatsbyjs.io/](https://mwartproduction.gatsbyjs.io/)
 
 [※ startbootstrap-agency (Original Version)](https://github.com/BlackrockDigital/startbootstrap-agency)
 
@@ -53,13 +50,9 @@ gatsby new my-blog-folder https://github.com/thundermiracle/gatsby-startbootstra
 
 ![Gatsby lighthouse](https://github.com/thundermiracle/gatsby-startbootstrap-agency/blob/screenshot/screenshot/lighthouse_gatsby.png)
 
-### Webpack Version
+### Lighthouse Report
 
-![Webpack lighthouse](https://github.com/thundermiracle/gatsby-startbootstrap-agency/blob/screenshot/screenshot/lighthouse_webpack.png)
-
-### Original Version
-
-![Original lighthouse](https://github.com/thundermiracle/gatsby-startbootstrap-agency/blob/screenshot/screenshot/lighthouse_original.png)
+(https://github.com/thundermiracle/gatsby-startbootstrap-agency/blob/screenshot/screenshot/lighthouse_webpack.png)
 
 ## Basic Configuration
 
