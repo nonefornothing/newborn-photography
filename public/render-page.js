@@ -3661,7 +3661,7 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "Gatsyby Startbootstrap Agency",
+    "name": "MW_moto Studio Website",
     "short_name": "Agency",
     "start_url": "/",
     "background_color": "#ffffff",
@@ -3673,7 +3673,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "4a9773549091c227cd2eb82ccd9c5e3a"
+    "cacheDigest": "d13861352e1a6fd7ec64e47b4f41a545"
   }
 }, {
   name: 'gatsby-plugin-react-helmet',
