@@ -13,7 +13,7 @@ module.exports = {
   description: "MW_moto photography website built by Bot Inc",
   author: "thundermiracle",
   trackingId: "UA-119418003-5",
-  defaultLang: "en",
+  defaultLang: "id",
   langTextMap: {
     en: "English",
     id: "Bahasa",
