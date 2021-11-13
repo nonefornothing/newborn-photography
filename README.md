@@ -24,14 +24,17 @@ __If you're not interesting in i18n, use [StaticQueryVersion](https://github.com
 
 ## How to use
 
-This project is using `yarn` as the package manager. You have to set yarn as Gatsby-cli's package manager first.
-
-[https://www.gatsbyjs.com/docs/glossary/yarn/#using-yarn-as-your-gatsby-package-manager](https://www.gatsbyjs.com/docs/glossary/yarn/#using-yarn-as-your-gatsby-package-manager)
+This project is using `npm` as the package manager. 
 
 ```sh
-npm install -g gatsby-cli
+git clone https://github.com/nonefornothing/newborn-photography.git
 
-gatsby new my-blog-folder https://github.com/thundermiracle/gatsby-startbootstrap-agency
+cd newborn-photography
+
+npm install
+
+gatsby develop
+
 ```
 
 ## Why Gatsby Version
