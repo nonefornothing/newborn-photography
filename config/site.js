@@ -11,7 +11,7 @@ module.exports = {
     "startbootstrap-agency",
   ],
   description: "MW_moto photography website built by Bot Inc",
-  author: "nonefornothing",
+  author: "thundermiracle",
   trackingId: "UA-119418003-5",
   defaultLang: "en",
   langTextMap: {
