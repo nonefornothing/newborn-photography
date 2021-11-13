@@ -8,7 +8,7 @@ __This project is migrated to Gatsby@v3, check the latest Gatsby@v2 version [her
 
 ## Preview
 
-![startbootstrap-agency](https://github.com/thundermiracle/gatsby-startbootstrap-agency/blob/screenshot/screenshot/startbootstrap-agency.png)
+![startbootstrap-agency](https://github.com/nonefornothing/newborn-photography/blob/develop/sample-website/homepage.PNG)
 
 ## Sample page
 
@@ -44,15 +44,9 @@ gatsby new my-blog-folder https://github.com/thundermiracle/gatsby-startbootstra
 
     i18n is really easy in Gatsby and i18n is more maintainable.
 
-## Comparison of Original, Webpack and Gatsby version
-
-### Gatsby Version
-
-![Gatsby lighthouse](https://github.com/thundermiracle/gatsby-startbootstrap-agency/blob/screenshot/screenshot/lighthouse_gatsby.png)
-
 ### Lighthouse Report
 
-(https://github.com/thundermiracle/gatsby-startbootstrap-agency/blob/screenshot/screenshot/lighthouse_webpack.png)
+![Gatsby lighthouse](https://github.com/nonefornothing/newborn-photography/blob/develop/sample-website/LightHouse-report.PNG)
 
 ## Basic Configuration
 
